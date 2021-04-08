@@ -23,6 +23,7 @@ public class Gun : MonoBehaviour
     void Start()
     {
         currentAmmo = maxAmmo;
+        fpsCam =  GameObject.FindObjectOfType<Camera>();
     }
 
     void OnEnable()
