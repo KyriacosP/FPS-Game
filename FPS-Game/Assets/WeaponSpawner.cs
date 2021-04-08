@@ -7,6 +7,7 @@ using UnityEngine;
 public class WeaponSpawner : MonoBehaviour
 {
     public GameObject WeaponPrefab;
+    public WeaponManager.WeaponType type;
     public WeaponManager weaponManager;
     public float VerticalBobFrequency = 1f;
 
@@ -50,7 +51,7 @@ public class WeaponSpawner : MonoBehaviour
         if (weaponManager)
         {
             Debug.Log("Player");
-            weaponManager.AddWeapon(WeaponPrefab, WeaponManager.WeaponType.HEAVY);
+            weaponManager.AddWeapon(WeaponPrefab, type);
             Destroy(gameObject);
         }
     }

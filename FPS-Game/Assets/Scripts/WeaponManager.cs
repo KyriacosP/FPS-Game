@@ -76,21 +76,25 @@ public class WeaponManager : MonoBehaviour
     public void AddWeapon(GameObject weapon, WeaponType type)
     {
         Debug.Log("TYPE" + type);
-        if(type == WeaponType.RIFLE)
+        GameObject go = Instantiate(weapon, transform.position, transform.rotation);
+        go.transform.parent = transform;
+        go.transform.localScale = new Vector3(3, 3, 3);
+        go.SetActive(false);
+        if (type == WeaponType.RIFLE)
         {
-            rifle = weapon;
+            rifle = go;           
         }
         else if (type == WeaponType.HEAVY)
         {
-            heavy = weapon;
+            heavy = go;
         }
         else if (type == WeaponType.HANDGUN)
         {
-            handgun = weapon;
+            handgun = go;
         }
         else if (type == WeaponType.GRENADE)
         {
-            grenade = weapon;
+            grenade = go;
         }
     }    
 
@@ -143,9 +147,7 @@ public class WeaponManager : MonoBehaviour
     {
         if(weapon!=null)
         {
-            GameObject go =  Instantiate(weapon, transform.position,transform.rotation);
-            go.transform.parent = transform;
-            go.transform.localScale = new Vector3(3, 3, 3);
+            weapon.SetActive(true);
         }
         
     }
@@ -153,7 +155,7 @@ public class WeaponManager : MonoBehaviour
     {
         if (weapon != null)
         {
-            Destroy(weapon);
+            weapon.SetActive(false);
         }
 
     }
