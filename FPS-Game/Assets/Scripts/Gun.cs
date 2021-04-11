@@ -59,6 +59,7 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
+        EnemyScript enemyScript;
         muzzleFlash.Play();
 
         currentAmmo--;
@@ -66,14 +67,23 @@ public class Gun : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
+            //Debug.Log(hit.transform.name);
             Target target = hit.transform.GetComponent<Target>();
             if(target !=null)
             {
                 target.Damage(damage);
+
+            }
+            if(hit.transform.tag=="Treasure"){
+                Debug.Log("RRERE");
+hit.collider.gameObject.GetComponent<MeshRenderer>().enabled = true;                
             }
 
-            if(hit.rigidbody != null)
+            if(hit.transform.tag=="Enemy"){
+                enemyScript = hit.transform.GetComponent<EnemyScript>();
+                enemyScript.health--;
+            }
+            if(hit.rigidbody != null) 
             {
                 hit.rigidbody.AddForce(-hit.normal * impactForce);
             }

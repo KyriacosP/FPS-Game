@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - FpsCamera
+  - FxTemporaire
+  - Fire
+  - Enemy
+  - Target
+  - Treasure
   layers:
   - Default
   - TransparentFX
