@@ -23,6 +23,6 @@ public class EnemyScript : MonoBehaviour
     }
 
     public void Death(){
-        anim.SetBool("isDead",true);
+        anim.SetBool("Dead",true);
     }
 }

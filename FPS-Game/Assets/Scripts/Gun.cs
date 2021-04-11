@@ -59,7 +59,7 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
-        EnemyScript enemyScript;
+        EnemyController enemyScript;
         muzzleFlash.Play();
 
         currentAmmo--;
@@ -72,16 +72,13 @@ public class Gun : MonoBehaviour
             if(target !=null)
             {
                 target.Damage(damage);
-
-            }
-            if(hit.transform.tag=="Treasure"){
-                Debug.Log("RRERE");
-hit.collider.gameObject.GetComponent<MeshRenderer>().enabled = true;                
             }
 
             if(hit.transform.tag=="Enemy"){
-                enemyScript = hit.transform.GetComponent<EnemyScript>();
+                enemyScript = hit.transform.GetComponent<EnemyController>();
                 enemyScript.health--;
+              //  enemyScript.enemy_Anim.Attack();
+
             }
             if(hit.rigidbody != null) 
             {
