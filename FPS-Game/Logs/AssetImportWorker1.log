@@ -1,0 +1,607 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/revekkakalli/Desktop/FPS-Game/FPS-Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57955
+Successfully changed project path to: /Users/revekkakalli/Desktop/FPS-Game/FPS-Game
+/Users/revekkakalli/Desktop/FPS-Game/FPS-Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path /Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/revekkakalli/Desktop/FPS-Game/FPS-Game/Assets
+GfxDevice: creating device client; threaded=0
+2021-04-13 01:04:49.570 Unity[11384:10613384] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-04-13 01:04:49.570 Unity[11384:10613384] Metal devices available: 1
+2021-04-13 01:04:49.570 Unity[11384:10613384] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-04-13 01:04:49.570 Unity[11384:10613384] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = '/Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001267 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 40.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.474 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launching external process: /Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1281 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.9 MB.
+System memory in use after: 227.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1765.
+Total: 3.270413 ms (FindLiveObjects: 0.333548 ms CreateObjectMapping: 0.100338 ms MarkObjects: 2.316307 ms  DeleteObjects: 0.517186 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (2).fbx
+  artifactKey: Guid(e409bdbfeec94484cb88ab712d79e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (2).fbx using Guid(e409bdbfeec94484cb88ab712d79e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b989aa460ea4b18c61e23647bf7340c6') in 1.307576 seconds
+  Import took 1.312132 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.1 MB.
+System memory in use after: 229.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1768.
+Total: 2.068102 ms (FindLiveObjects: 0.338042 ms CreateObjectMapping: 0.047935 ms MarkObjects: 1.223100 ms  DeleteObjects: 0.457893 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.672151 seconds.
+  path: Assets/Animations/EnemyAnimation/EnemyDeath.fbx
+  artifactKey: Guid(e409bdbfeec94484cb88ab712d79e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/EnemyDeath.fbx using Guid(e409bdbfeec94484cb88ab712d79e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a30df3acae25cbb3ae44b2c0268852') in 0.031478 seconds
+  Import took 0.034591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.945968 seconds.
+  path: Assets/Animations/EnemyAnimation/EnemyDeath.fbx
+  artifactKey: Guid(e409bdbfeec94484cb88ab712d79e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/EnemyDeath.fbx using Guid(e409bdbfeec94484cb88ab712d79e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2dab43af84c60e9423ac991adef89f') in 0.008516 seconds
+  Import took 0.012100 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.5 MB.
+System memory in use after: 230.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1771.
+Total: 1.962860 ms (FindLiveObjects: 0.234447 ms CreateObjectMapping: 0.110367 ms MarkObjects: 1.095345 ms  DeleteObjects: 0.521004 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.682385 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (2).fbx
+  artifactKey: Guid(384c60deb89864f2287072d9bf301319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (2).fbx using Guid(384c60deb89864f2287072d9bf301319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f83bd9ea149448d746d7a5c9452645') in 0.261174 seconds
+  Import took 0.265157 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.4 MB.
+System memory in use after: 249.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1818.
+Total: 2.092193 ms (FindLiveObjects: 0.139482 ms CreateObjectMapping: 0.034915 ms MarkObjects: 1.475936 ms  DeleteObjects: 0.440179 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.059074 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (2).fbx
+  artifactKey: Guid(384c60deb89864f2287072d9bf301319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (2).fbx using Guid(384c60deb89864f2287072d9bf301319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c72d82b70d21c51ff90957910175e9') in 0.139455 seconds
+  Import took 0.143544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.955624 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (3).fbx
+  artifactKey: Guid(a5d2fe2ef0b5b43c385f4541b29a8efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (3).fbx using Guid(a5d2fe2ef0b5b43c385f4541b29a8efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04f9a0aa919ff2f41d77aa755fe7577') in 0.013870 seconds
+  Import took 0.018970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.965594 seconds.
+  path: Assets/Animations/EnemyAnimation/EnemyDeath.fbx
+  artifactKey: Guid(a5d2fe2ef0b5b43c385f4541b29a8efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/EnemyDeath.fbx using Guid(a5d2fe2ef0b5b43c385f4541b29a8efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a2c211e9b99575ee66cc50e7ad81b8') in 0.007994 seconds
+  Import took 0.010853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.336701 seconds.
+  path: Assets/Animations/EnemyAnimation/EnemyDeath.fbx
+  artifactKey: Guid(a5d2fe2ef0b5b43c385f4541b29a8efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/EnemyDeath.fbx using Guid(a5d2fe2ef0b5b43c385f4541b29a8efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ea774ebe28ddf7f348f1a7b1df9cfa') in 0.007379 seconds
+  Import took 0.012375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.111893 seconds.
+  path: Assets/Animations/EnemyAnimation/EnemyDeath.fbx
+  artifactKey: Guid(a5d2fe2ef0b5b43c385f4541b29a8efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/EnemyDeath.fbx using Guid(a5d2fe2ef0b5b43c385f4541b29a8efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d530b7e99ccd1b55c374204a4fcca33') in 0.008409 seconds
+  Import took 0.012029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000879 seconds.
+  path: Assets/Animations/EnemyAnimation/EnemyDeath.fbx
+  artifactKey: Guid(a5d2fe2ef0b5b43c385f4541b29a8efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/EnemyDeath.fbx using Guid(a5d2fe2ef0b5b43c385f4541b29a8efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d530b7e99ccd1b55c374204a4fcca33') in 0.008413 seconds
+  Import took 0.011826 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.0 MB.
+System memory in use after: 249.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1822.
+Total: 1.995727 ms (FindLiveObjects: 0.208289 ms CreateObjectMapping: 0.039490 ms MarkObjects: 1.215632 ms  DeleteObjects: 0.529641 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.374983 seconds.
+  path: Assets/Animations/EnemyAnimation/EnemyDeath.fbx
+  artifactKey: Guid(384c60deb89864f2287072d9bf301319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/EnemyDeath.fbx using Guid(384c60deb89864f2287072d9bf301319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8baeaebb0bfc64975c4fceb10982a728') in 0.163960 seconds
+  Import took 0.168372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.759478 seconds.
+  path: Assets/Animations/EnemyAnimation/EnemyDeath.fbx
+  artifactKey: Guid(384c60deb89864f2287072d9bf301319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/EnemyDeath.fbx using Guid(384c60deb89864f2287072d9bf301319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3767ad67c1324a96121db3953afd04d6') in 0.066792 seconds
+  Import took 0.069740 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000913 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.6 MB.
+System memory in use after: 250.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1826.
+Total: 2.565745 ms (FindLiveObjects: 0.145821 ms CreateObjectMapping: 0.040282 ms MarkObjects: 1.660203 ms  DeleteObjects: 0.717863 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.410420 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (2).fbx
+  artifactKey: Guid(8015b3718aee448638836d27d02a2035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (2).fbx using Guid(8015b3718aee448638836d27d02a2035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b233ae356840d9f295f87b46aaf3e8') in 0.163786 seconds
+  Import took 0.167701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.044271 seconds.
+  path: Assets/Animations/EnemyAnimation/EnemyIdle.fbx
+  artifactKey: Guid(09ed59758686646eca70b75cb38cf67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/EnemyIdle.fbx using Guid(09ed59758686646eca70b75cb38cf67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db45c3c9c2ab29d04d2391bf3498b24') in 0.011752 seconds
+  Import took 0.016333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000922 seconds.
+  path: Assets/Animations/EnemyAnimation/EnemyIdle.fbx
+  artifactKey: Guid(09ed59758686646eca70b75cb38cf67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/EnemyIdle.fbx using Guid(09ed59758686646eca70b75cb38cf67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db45c3c9c2ab29d04d2391bf3498b24') in 0.009952 seconds
+  Import took 0.012795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.581476 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (2).fbx
+  artifactKey: Guid(8015b3718aee448638836d27d02a2035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (2).fbx using Guid(8015b3718aee448638836d27d02a2035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e830bf83f1a15553acfe425d265b43') in 0.061418 seconds
+  Import took 0.065666 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000838 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 251.3 MB.
+System memory in use after: 250.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1830.
+Total: 1.839154 ms (FindLiveObjects: 0.136541 ms CreateObjectMapping: 0.027432 ms MarkObjects: 1.165161 ms  DeleteObjects: 0.508406 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.943794 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx
+  artifactKey: Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx using Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab50a6b9238377b8c96882530457abad') in 0.035892 seconds
+  Import took 0.040319 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 251.7 MB.
+System memory in use after: 251.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 2.834975 ms (FindLiveObjects: 0.194383 ms CreateObjectMapping: 0.075512 ms MarkObjects: 1.819149 ms  DeleteObjects: 0.744461 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.596532 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx
+  artifactKey: Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx using Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfead6cd50d53a5cb33b0a0ab6d3caa') in 0.033437 seconds
+  Import took 0.037076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.659209 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx
+  artifactKey: Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx using Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfead6cd50d53a5cb33b0a0ab6d3caa') in 0.008803 seconds
+  Import took 0.011324 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.898 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.0 MB.
+System memory in use after: 251.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1836.
+Total: 2.683469 ms (FindLiveObjects: 0.343204 ms CreateObjectMapping: 0.112705 ms MarkObjects: 1.703722 ms  DeleteObjects: 0.522547 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.260939 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx
+  artifactKey: Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx using Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc762cbc620e6d0ecba2c2cb7487ab1') in 0.035410 seconds
+  Import took 0.040127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.202364 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx
+  artifactKey: Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx using Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b977bd86bb9e9146fdf2fba5e7fad76a') in 0.006637 seconds
+  Import took 0.010876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.718867 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx
+  artifactKey: Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx using Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce48eb4689a70edc783c493cdcfab444') in 0.008111 seconds
+  Import took 0.011723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx
+  artifactKey: Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx using Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce48eb4689a70edc783c493cdcfab444') in 0.007247 seconds
+  Import took 0.010334 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000661 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.4 MB.
+System memory in use after: 252.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 3.234840 ms (FindLiveObjects: 0.368062 ms CreateObjectMapping: 0.210019 ms MarkObjects: 2.012690 ms  DeleteObjects: 0.640980 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.423686 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx
+  artifactKey: Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx using Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2794a238a0c6a8e3a3732839909b5bcd') in 0.037844 seconds
+  Import took 0.041359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.097102 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx
+  artifactKey: Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx using Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbfc5fd9fe6b64ebac2bdee793965aa') in 0.009464 seconds
+  Import took 0.013359 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.897 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.8 MB.
+System memory in use after: 252.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 3.438563 ms (FindLiveObjects: 0.439349 ms CreateObjectMapping: 0.083943 ms MarkObjects: 2.067964 ms  DeleteObjects: 0.844518 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.256428 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx
+  artifactKey: Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Backward (4).fbx using Guid(53a37b5fc74754650934418e20e47369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272a8cfe41b58a208f90962e61dc0ade') in 0.041544 seconds
+  Import took 0.046958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.257990 seconds.
+  path: Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Forward.fbx
+  artifactKey: Guid(495948eececcd40d38ab40945ba767c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/vanguard_t_choonyung@Standing React Death Forward.fbx using Guid(495948eececcd40d38ab40945ba767c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffff6bd8cc89da1158ead8a41880e9f') in 0.012289 seconds
+  Import took 0.015745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.491425 seconds.
+  path: Assets/Prefabs/EnemyPrefab.prefab
+  artifactKey: Guid(b96baf134ebd742de86d332b2bc6d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyPrefab.prefab using Guid(b96baf134ebd742de86d332b2bc6d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27de0583181592fd4af380bdd84caf7d') in 0.455400 seconds
+  Import took 0.458283 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 257.4 MB.
+System memory in use after: 257.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 2.464386 ms (FindLiveObjects: 0.148611 ms CreateObjectMapping: 0.038472 ms MarkObjects: 1.643653 ms  DeleteObjects: 0.631756 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.445071 seconds.
+  path: Assets/Prefabs/EnemyPrefab.prefab
+  artifactKey: Guid(b96baf134ebd742de86d332b2bc6d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyPrefab.prefab using Guid(b96baf134ebd742de86d332b2bc6d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272aeaabd86adadc668fc249e9951fca') in 0.078471 seconds
+  Import took 0.081541 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 257.9 MB.
+System memory in use after: 257.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 2.356204 ms (FindLiveObjects: 0.212874 ms CreateObjectMapping: 0.052629 ms MarkObjects: 1.537227 ms  DeleteObjects: 0.552282 ms)
+
