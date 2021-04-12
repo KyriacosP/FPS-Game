@@ -6,7 +6,8 @@ using UnityEngine.AI;
 public enum EnemyState {
     PATROL,
     CHASE,
-    ATTACK
+    ATTACK,
+    REST
 }
 
 public class EnemyController : MonoBehaviour {
@@ -70,6 +71,9 @@ public class EnemyController : MonoBehaviour {
         if (enemy_State == EnemyState.ATTACK) {
             Attack();
         }
+        if (enemy_State == EnemyState.REST) {
+            Rest();
+        }
         }
 
     }
@@ -79,14 +83,31 @@ public class EnemyController : MonoBehaviour {
         enemy_Anim.Dead(true);
 
      }
-
+    public float LastRest;
+    
+    void Rest(){
+        RestTime+=Time.deltaTime;
+        navAgent.isStopped=true;
+        enemy_Anim.Rest(true);
+        enemy_Anim.Walk(false);
+        if(RestTime>LastRest+30){
+            enemy_Anim.Rest(false);
+            LastRest=RestTime;
+            enemy_State = EnemyState.PATROL;
+        }
+    }
+    
     void Patrol() {
 
         navAgent.isStopped = false;
         navAgent.speed = walk_Speed;
 
+        RestTime+=Time.deltaTime;
+        if(RestTime>LastRest+20){
+            enemy_State = EnemyState.REST;
+        }
+        
         patrol_Timer += Time.deltaTime;
-
         if(patrol_Timer > patrol_For_This_Time) {
             SetNewRandomDestination();
             patrol_Timer = 0f;
@@ -96,6 +117,7 @@ public class EnemyController : MonoBehaviour {
             enemy_Anim.Walk(true);
         else
             enemy_Anim.Walk(false);
+            
 
         Debug.Log(Vector3.Distance(transform.position, target.position));
         if(Vector3.Distance(transform.position, target.position) <= chase_Distance) {
