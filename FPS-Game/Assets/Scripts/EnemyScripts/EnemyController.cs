@@ -27,7 +27,7 @@ public class EnemyController : MonoBehaviour {
 
     public float patrol_Radius_Min = 20f, patrol_Radius_Max = 60f;
     public float patrol_For_This_Time = 15f;
-    private float patrol_Timer;
+    public float patrol_Timer;
 
     public float wait_Before_Attack = 2f;
     private float attack_Timer;
@@ -35,6 +35,7 @@ public class EnemyController : MonoBehaviour {
     private Transform target;
 
     public GameObject attack_Point;
+    public float RestTime;
 
     void Awake() {
         enemy_Anim = GetComponent<EnemyAnimator>();
@@ -91,12 +92,12 @@ public class EnemyController : MonoBehaviour {
             patrol_Timer = 0f;
         }
 
-        if(navAgent.velocity.sqrMagnitude > 0) {
+        if(navAgent.velocity.sqrMagnitude > 0)
             enemy_Anim.Walk(true);
-        } else {
+        else
             enemy_Anim.Walk(false);
-        }
 
+        Debug.Log(Vector3.Distance(transform.position, target.position));
         if(Vector3.Distance(transform.position, target.position) <= chase_Distance) {
             enemy_Anim.Walk(false);
             enemy_State = EnemyState.CHASE;
@@ -111,15 +112,12 @@ public class EnemyController : MonoBehaviour {
 
         navAgent.SetDestination(target.position);
 
-        if (navAgent.velocity.sqrMagnitude > 0) {
+        if (navAgent.velocity.sqrMagnitude > 0)
             enemy_Anim.Run(true);
-        } else {
+        else
             enemy_Anim.Run(false);
 
-        }
-
         if(Vector3.Distance(transform.position, target.position) <= attack_Distance) {
-
             enemy_Anim.Run(false);
             enemy_Anim.Walk(false);
             enemy_State = EnemyState.ATTACK;
@@ -149,6 +147,7 @@ public class EnemyController : MonoBehaviour {
         attack_Timer += Time.deltaTime;
 
         if(attack_Timer > wait_Before_Attack) {
+            transform.LookAt(target);
             enemy_Anim.Attack();
             attack_Timer = 0f;
 

@@ -26,4 +26,7 @@ public class EnemyAnimator : MonoBehaviour {
          anim.SetBool("Dead", dead);
      }
 
+    public void Rest(bool rest) {
+        anim.SetBool("Rest", rest);
+    }
 } 
