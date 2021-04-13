@@ -11,11 +11,18 @@ public class MouseLook : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        transform.localPosition = new Vector3(0f, 4.27f, 0f);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(Cursor.lockState == CursorLockMode.Locked) {
+            MoveCamera();
+        }
+    }
+
+    void MoveCamera(){
         float mouseX = Input.GetAxis("Mouse X");
         float mouseY = Input.GetAxis("Mouse Y");
 

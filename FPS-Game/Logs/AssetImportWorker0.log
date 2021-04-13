@@ -1120,3 +1120,788 @@ System memory in use after: 264.7 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1883.
 Total: 2.201129 ms (FindLiveObjects: 0.170134 ms CreateObjectMapping: 0.041781 ms MarkObjects: 1.439386 ms  DeleteObjects: 0.548533 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001985 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 265.5 MB.
+System memory in use after: 265.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 2.188086 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.050768 ms MarkObjects: 1.256873 ms  DeleteObjects: 0.668066 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.290 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 265.8 MB.
+System memory in use after: 265.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 2.740563 ms (FindLiveObjects: 0.293962 ms CreateObjectMapping: 0.063242 ms MarkObjects: 1.682627 ms  DeleteObjects: 0.697532 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 266.2 MB.
+System memory in use after: 265.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 2.666520 ms (FindLiveObjects: 0.388773 ms CreateObjectMapping: 0.044208 ms MarkObjects: 1.411165 ms  DeleteObjects: 0.820775 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5045.384009 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(c998896a367fff34babaf312345b3ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(c998896a367fff34babaf312345b3ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adfa183e15ae8fbf6fdc1ac2566666e') in 0.657890 seconds
+  Import took 0.661488 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.8 MB.
+System memory in use after: 270.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1895.
+Total: 2.421890 ms (FindLiveObjects: 0.392724 ms CreateObjectMapping: 0.090711 ms MarkObjects: 1.380715 ms  DeleteObjects: 0.555745 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.046100 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab
+  artifactKey: Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab using Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b991706a2d1f4959b3a7e6f4796e26b') in 0.266249 seconds
+  Import took 0.269457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.320919 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab
+  artifactKey: Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab using Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845e212575526400ec57683dcf68bd03') in 0.048018 seconds
+  Import took 0.050968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.859461 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab
+  artifactKey: Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab using Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6de1da7223857bcfa0f2aac2eb7c69') in 0.038938 seconds
+  Import took 0.041683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.281149 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab
+  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3abd042c0ac0df067a8bcb146e4e37') in 0.113438 seconds
+  Import took 0.116247 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 272.0 MB.
+System memory in use after: 271.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1935.
+Total: 2.186356 ms (FindLiveObjects: 0.164499 ms CreateObjectMapping: 0.035454 ms MarkObjects: 1.422996 ms  DeleteObjects: 0.561679 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.332851 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab
+  artifactKey: Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab using Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bf02998f6b7baf6746a1ad4105a1cc') in 0.140234 seconds
+  Import took 0.143199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.086512 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab
+  artifactKey: Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab using Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5171e9382ae459372f83b45d17384ad') in 0.037551 seconds
+  Import took 0.040909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.029463 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab
+  artifactKey: Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab using Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80a0f6d086658c61365aefb8c64de1c') in 0.037270 seconds
+  Import took 0.041013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.099847 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab
+  artifactKey: Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab using Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317be182653bf9bd6cc3c001e802e4ef') in 0.037887 seconds
+  Import took 0.040997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.543528 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab
+  artifactKey: Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab using Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396420f9abe65fdd02b352944be007c6') in 0.040935 seconds
+  Import took 0.044296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.851335 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab
+  artifactKey: Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab using Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1adf14b0731566107682b38bc779670') in 0.039249 seconds
+  Import took 0.042298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036992 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab
+  artifactKey: Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab using Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1adf14b0731566107682b38bc779670') in 0.055954 seconds
+  Import took 0.058875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.531268 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab
+  artifactKey: Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab using Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f29fecd1aa2f5d2d3b059271d9051b') in 0.043521 seconds
+  Import took 0.047111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.505357 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab
+  artifactKey: Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab using Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ba1316418a9595fa9693ed2b2baa5a') in 0.042247 seconds
+  Import took 0.045788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.864686 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab
+  artifactKey: Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab using Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6d822da9af5bcc429eb2247b3b68ea') in 0.040287 seconds
+  Import took 0.043531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.878397 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab
+  artifactKey: Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab using Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b838f63491e439f57969b7c2d97071e') in 0.039609 seconds
+  Import took 0.042610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.751471 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab
+  artifactKey: Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab using Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d93585358b9d54ebc16ab49780f5c42') in 0.041920 seconds
+  Import took 0.045866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.487052 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab
+  artifactKey: Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab using Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e107d625d651769652e370c6cd6db3a3') in 0.041154 seconds
+  Import took 0.044286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.436093 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab
+  artifactKey: Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab using Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7c7f8aecb1d3b2a22a40085e5ea439') in 0.039693 seconds
+  Import took 0.043280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.877027 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab
+  artifactKey: Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab using Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6642e13712776d66231b410420509d9e') in 0.043501 seconds
+  Import took 0.046526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.335546 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab
+  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235859d83a987a182f740a8754c0a099') in 0.039786 seconds
+  Import took 0.043396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.911375 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab
+  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e06150da01f8a211207a46a3162ed9') in 0.036781 seconds
+  Import took 0.039938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038597 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab
+  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e06150da01f8a211207a46a3162ed9') in 0.046349 seconds
+  Import took 0.049597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.806946 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab
+  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e1d400e7158cdbd56b07a4bebca1b4') in 0.041436 seconds
+  Import took 0.044593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.658164 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab
+  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db1487db964486c49a2991a0c6c086c') in 0.040857 seconds
+  Import took 0.043865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.022508 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab
+  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed542cda4778ecd58c883d5ff936078d') in 0.039573 seconds
+  Import took 0.042304 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.5 MB.
+System memory in use after: 273.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1939.
+Total: 2.149235 ms (FindLiveObjects: 0.161734 ms CreateObjectMapping: 0.035562 ms MarkObjects: 1.403057 ms  DeleteObjects: 0.547300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.480870 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab
+  artifactKey: Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab using Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa453c39e3e0c47c9293885afd509e0') in 0.132860 seconds
+  Import took 0.137250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.464111 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab
+  artifactKey: Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 5.prefab using Guid(a7984f59c227d0240b9771d2797a085c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bae40cd86e841df589dd38c8a3a291f') in 0.040536 seconds
+  Import took 0.043908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.571588 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab
+  artifactKey: Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab using Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745fa9991a2cf23050abedd09db4e3cd') in 0.042259 seconds
+  Import took 0.045616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031220 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab
+  artifactKey: Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 4.prefab using Guid(7d39a68237432ea41ae92c75eb21dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745fa9991a2cf23050abedd09db4e3cd') in 0.052454 seconds
+  Import took 0.056060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.811465 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab
+  artifactKey: Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 3.prefab using Guid(84bb771a8038d2648bd2421451c4018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04565a4bf7fd4482b12af8e1e3cb813') in 0.039020 seconds
+  Import took 0.042173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.320028 seconds.
+  path: Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab
+  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d6b43bd60c4fe2a7e5b2b754027737') in 0.040783 seconds
+  Import took 0.043898 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.4 MB.
+System memory in use after: 274.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 2.741945 ms (FindLiveObjects: 0.165206 ms CreateObjectMapping: 0.033665 ms MarkObjects: 1.869407 ms  DeleteObjects: 0.671732 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 332.026327 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d983a4e99c773ea12c069401ad2072') in 0.007944 seconds
+  Import took 0.010499 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.2 MB.
+System memory in use after: 274.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1946.
+Total: 2.465041 ms (FindLiveObjects: 0.338083 ms CreateObjectMapping: 0.127911 ms MarkObjects: 1.437089 ms  DeleteObjects: 0.559665 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.703060 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b925135b7a288f85903619c1e277aba9') in 0.006277 seconds
+  Import took 0.009073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.767614 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b925135b7a288f85903619c1e277aba9') in 0.003778 seconds
+  Import took 0.006088 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000640 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.6 MB.
+System memory in use after: 275.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 2.419576 ms (FindLiveObjects: 0.353845 ms CreateObjectMapping: 0.059665 ms MarkObjects: 1.420564 ms  DeleteObjects: 0.583684 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.558396 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3f1927fedb042e703a98fafb69643f') in 0.008656 seconds
+  Import took 0.013549 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 276.2 MB.
+System memory in use after: 275.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1952.
+Total: 2.354444 ms (FindLiveObjects: 0.252163 ms CreateObjectMapping: 0.061602 ms MarkObjects: 1.478940 ms  DeleteObjects: 0.560100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.568542 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2e2afae2fc052771a0d7f25aa0c90f') in 0.008792 seconds
+  Import took 0.012418 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 276.6 MB.
+System memory in use after: 276.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1955.
+Total: 2.195070 ms (FindLiveObjects: 0.200460 ms CreateObjectMapping: 0.039379 ms MarkObjects: 1.225004 ms  DeleteObjects: 0.728949 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.365100 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a492be0e3e6801e5f5c00d87dabafa3d') in 0.007668 seconds
+  Import took 0.010722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.871121 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a492be0e3e6801e5f5c00d87dabafa3d') in 0.003634 seconds
+  Import took 0.005787 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 276.9 MB.
+System memory in use after: 276.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1958.
+Total: 2.173179 ms (FindLiveObjects: 0.214791 ms CreateObjectMapping: 0.040932 ms MarkObjects: 1.362881 ms  DeleteObjects: 0.553135 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.439159 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca938cdddb5decf664a075a7477c5932') in 0.005932 seconds
+  Import took 0.009318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.809462 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca938cdddb5decf664a075a7477c5932') in 0.004139 seconds
+  Import took 0.006279 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 277.3 MB.
+System memory in use after: 276.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1961.
+Total: 2.185174 ms (FindLiveObjects: 0.256192 ms CreateObjectMapping: 0.045890 ms MarkObjects: 1.332546 ms  DeleteObjects: 0.549167 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.662648 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c03daccbd1574bd400ecdaf55d71124') in 0.006052 seconds
+  Import took 0.008337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.993344 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c03daccbd1574bd400ecdaf55d71124') in 0.003812 seconds
+  Import took 0.006086 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 277.7 MB.
+System memory in use after: 277.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 2.343005 ms (FindLiveObjects: 0.266903 ms CreateObjectMapping: 0.063246 ms MarkObjects: 1.414823 ms  DeleteObjects: 0.596111 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 278.0 MB.
+System memory in use after: 277.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1967.
+Total: 2.061024 ms (FindLiveObjects: 0.241783 ms CreateObjectMapping: 0.043148 ms MarkObjects: 1.218033 ms  DeleteObjects: 0.556867 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.655337 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fec8025b6f8f6008588c8ab9ba1f9c5') in 0.005769 seconds
+  Import took 0.008283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.800600 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(a6d47027c01b31e4d93977ea13c3d523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fec8025b6f8f6008588c8ab9ba1f9c5') in 0.003961 seconds
+  Import took 0.006176 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 278.4 MB.
+System memory in use after: 278.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1970.
+Total: 2.235478 ms (FindLiveObjects: 0.197047 ms CreateObjectMapping: 0.043549 ms MarkObjects: 1.425183 ms  DeleteObjects: 0.567546 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 278.8 MB.
+System memory in use after: 278.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1973.
+Total: 2.574153 ms (FindLiveObjects: 0.241829 ms CreateObjectMapping: 0.051706 ms MarkObjects: 1.650651 ms  DeleteObjects: 0.628188 ms)
+
