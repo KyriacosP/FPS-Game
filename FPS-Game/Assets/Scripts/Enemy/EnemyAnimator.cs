@@ -18,8 +18,8 @@ public class EnemyAnimator : MonoBehaviour {
         anim.SetBool("Run", run);
     }
 
-    public void Attack() {
-        anim.SetTrigger("Attack");
+    public void Attack(bool attack) {
+        anim.SetBool("Attack",attack);
     }
 
      public void Dead(bool dead) {

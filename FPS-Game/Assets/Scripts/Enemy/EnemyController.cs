@@ -12,7 +12,7 @@ public enum EnemyState {
 
 public class EnemyController : MonoBehaviour {
 
-    public EnemyAnimator enemy_Anim;
+  public EnemyAnimator enemy_Anim;
     private NavMeshAgent navAgent;
 
     private EnemyState enemy_State;
@@ -33,15 +33,16 @@ public class EnemyController : MonoBehaviour {
     public float wait_Before_Attack = 2f;
     private float attack_Timer;
 
-    private Transform target;
+    private Transform player;
 
     public GameObject attack_Point;
     public float RestTime;
+    public float iwashit;
 
     void Awake() {
         enemy_Anim = GetComponent<EnemyAnimator>();
         navAgent = GetComponent<NavMeshAgent>();
-        target = GameObject.FindWithTag("Player").transform;
+        player = GameObject.FindWithTag("Player").transform;
 
     }
 
@@ -52,11 +53,11 @@ public class EnemyController : MonoBehaviour {
         attack_Timer = wait_Before_Attack;
         current_Chase_Distance = chase_Distance;
 
-	}
+    }
 	
-	// Update is called once per frame
-	void Update () {
-		        
+    // Update is called once per frame
+    void Update () {
+                
         if(health<=0)
             Death();
         else{
@@ -78,29 +79,35 @@ public class EnemyController : MonoBehaviour {
 
     }
 
+  
      void Death(){
         enemy_Anim.Walk(false);
         enemy_Anim.Dead(true);
 
      }
+
     public float LastRest;
-    
     void Rest(){
         RestTime+=Time.deltaTime;
         navAgent.isStopped=true;
         enemy_Anim.Rest(true);
         enemy_Anim.Walk(false);
-        if(RestTime>LastRest+30){
+        if(RestTime>LastRest+30 || iwashit==1) {
             enemy_Anim.Rest(false);
             LastRest=RestTime;
             enemy_State = EnemyState.PATROL;
         }
+        if(Vector3.Distance(transform.position, player.position) <= chase_Distance){
+            enemy_Anim.Rest(false);
+            LastRest=RestTime;
+            enemy_State = EnemyState.CHASE;
+        }
     }
     
     void Patrol() {
-
         navAgent.isStopped = false;
         navAgent.speed = walk_Speed;
+        enemy_Anim.Walk(true);
 
         RestTime+=Time.deltaTime;
         if(RestTime>LastRest+20){
@@ -113,73 +120,45 @@ public class EnemyController : MonoBehaviour {
             patrol_Timer = 0f;
         }
 
-        if(navAgent.velocity.sqrMagnitude > 0)
-            enemy_Anim.Walk(true);
-        else
-            enemy_Anim.Walk(false);
-            
-
-        Debug.Log(Vector3.Distance(transform.position, target.position));
-        if(Vector3.Distance(transform.position, target.position) <= chase_Distance) {
+         if(Vector3.Distance(transform.position, player.position) <= chase_Distance){
             enemy_Anim.Walk(false);
             enemy_State = EnemyState.CHASE;
-        }
-
-    } 
-
-    void Chase() {
-
-        navAgent.isStopped = false;
-        navAgent.speed = run_Speed;
-
-        navAgent.SetDestination(target.position);
-
-        if (navAgent.velocity.sqrMagnitude > 0)
-            enemy_Anim.Run(true);
-        else
-            enemy_Anim.Run(false);
-
-        if(Vector3.Distance(transform.position, target.position) <= attack_Distance) {
-            enemy_Anim.Run(false);
-            enemy_Anim.Walk(false);
-            enemy_State = EnemyState.ATTACK;
-
-            if(chase_Distance != current_Chase_Distance) {
-                chase_Distance = current_Chase_Distance;
-            }
-
-        } else if(Vector3.Distance(transform.position, target.position) > chase_Distance) {
-
-            enemy_Anim.Run(false);
-            enemy_State = EnemyState.PATROL;
-            patrol_Timer = patrol_For_This_Time;
-
-            if (chase_Distance != current_Chase_Distance) {
-                chase_Distance = current_Chase_Distance;
-            }
-
         }
     }
 
-    void Attack() {
+    void Chase(){
+        navAgent.isStopped = false;
+        navAgent.speed = 2;
+        navAgent.SetDestination(player.position);
+        enemy_Anim.Run(true);
+        
+        if(Vector3.Distance(transform.position, player.position) <= attack_Distance) {
+            enemy_Anim.Run(false);
+            enemy_State = EnemyState.ATTACK;
+        } 
+        else if(Vector3.Distance(transform.position, player.position) > chase_Distance){
+            enemy_Anim.Run(false);
+            enemy_State = EnemyState.PATROL;
+        }
 
+    }
+
+    void Attack() {
         navAgent.velocity = Vector3.zero;
         navAgent.isStopped = true;
 
-        attack_Timer += Time.deltaTime;
-
-        if(attack_Timer > wait_Before_Attack) {
-            transform.LookAt(target);
-            enemy_Anim.Attack();
-            attack_Timer = 0f;
-
-        }
-
-        if(Vector3.Distance(transform.position, target.position) >
-           attack_Distance + chase_After_Attack_Distance) {
-            enemy_State = EnemyState.CHASE;
-        }
-
+        transform.LookAt(player);
+        enemy_Anim.Attack(true);
+        
+        if(Vector3.Distance(transform.position, player.position) > attack_Distance) {
+            if(Vector3.Distance(transform.position, player.position) < chase_Distance){
+                enemy_Anim.Attack(false);
+                enemy_State = EnemyState.CHASE;
+            }else{
+            enemy_Anim.Attack(false);
+            enemy_State = EnemyState.PATROL;
+            }   
+        } 
     } 
 
     void SetNewRandomDestination() {
@@ -190,16 +169,6 @@ public class EnemyController : MonoBehaviour {
         NavMeshHit navHit;
         NavMesh.SamplePosition(randDir, out navHit, rand_Radius, -1);
         navAgent.SetDestination(navHit.position);
-    }
-
-    void Turn_On_AttackPoint() {
-        attack_Point.SetActive(true);
-    }
-
-    void Turn_Off_AttackPoint() {
-        if (attack_Point.activeInHierarchy) {
-            attack_Point.SetActive(false);
-        }
     }
 
     public EnemyState Enemy_State {

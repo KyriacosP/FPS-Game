@@ -23,7 +23,7 @@ Animator:
   m_GameObject: {fileID: 2986721339986967249}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: bc359504274f44dd8ae110d2ce8ca617, type: 3}
-  m_Controller: {fileID: 9100000, guid: 5e213447fa1a246a3a7f02804269d92e, type: 2}
+  m_Controller: {fileID: 9100000, guid: cda005111b39e4821a9ee4f65db3035a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -81,7 +81,7 @@ MonoBehaviour:
   enemy_Anim: {fileID: 0}
   walk_Speed: 0.5
   run_Speed: 1
-  health: 20
+  health: 100
   chase_Distance: 15
   attack_Distance: 4
   chase_After_Attack_Distance: 2
@@ -92,6 +92,7 @@ MonoBehaviour:
   wait_Before_Attack: 2
   attack_Point: {fileID: 0}
   RestTime: 0
+  iwashit: 0
   LastRest: 0
 --- !u!1 &5998697537180610685
 GameObject:
@@ -164,7 +165,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ee464eca873d54fd48e17c97888ea06c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.9
+      value: 8.33
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ee464eca873d54fd48e17c97888ea06c,
         type: 3}

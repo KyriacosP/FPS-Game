@@ -60,6 +60,7 @@ public class Gun : MonoBehaviour
     void Shoot()
     {
         EnemyController enemyScript;
+        GuardController guardScript;
         muzzleFlash.Play();
 
         currentAmmo--;
@@ -77,9 +78,13 @@ public class Gun : MonoBehaviour
             if(hit.transform.tag=="Enemy"){
                 enemyScript = hit.transform.GetComponent<EnemyController>();
                 enemyScript.health--;
-              //  enemyScript.enemy_Anim.Attack();
-
+                enemyScript.iwashit=1;
+            } 
+            else if(hit.transform.tag=="Guard"){
+                guardScript = hit.transform.GetComponent<GuardController>();
+                guardScript.health--;
             }
+
             if(hit.rigidbody != null) 
             {
                 hit.rigidbody.AddForce(-hit.normal * impactForce);
