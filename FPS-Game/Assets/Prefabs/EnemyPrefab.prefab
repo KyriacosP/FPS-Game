@@ -81,7 +81,7 @@ MonoBehaviour:
   enemy_Anim: {fileID: 0}
   walk_Speed: 0.5
   run_Speed: 1
-  health: 100
+  health: 20
   chase_Distance: 15
   attack_Distance: 4
   chase_After_Attack_Distance: 2

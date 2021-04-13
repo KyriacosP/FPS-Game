@@ -12,6 +12,7 @@ public class WeaponManager : MonoBehaviour
     public GameObject handgun;
     public GameObject grenade;
     public WeaponType selectedWeapon;
+    public int clipnumer;
 
     //public int selectedWeapon = 0;
     // Start is called before the first frame update
@@ -106,6 +107,7 @@ public class WeaponManager : MonoBehaviour
             DisableWeapon(heavy);
             DisableWeapon(handgun);
             DisableWeapon(grenade);
+            clipnumer=0;
         }
         else if (selectedWeapon == WeaponType.HEAVY)
         {
@@ -113,6 +115,7 @@ public class WeaponManager : MonoBehaviour
             EnableWeapon(heavy);
             DisableWeapon(handgun);
             DisableWeapon(grenade);
+            clipnumer=1;
         }
         else if (selectedWeapon == WeaponType.HANDGUN)
         {
@@ -120,6 +123,8 @@ public class WeaponManager : MonoBehaviour
             DisableWeapon(heavy);
             EnableWeapon(handgun);
             DisableWeapon(grenade);
+            clipnumer=2;
+            
         }
         else if (selectedWeapon == WeaponType.GRENADE)
         {

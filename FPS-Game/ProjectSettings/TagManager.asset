@@ -11,6 +11,7 @@ TagManager:
   - Target
   - Treasure
   - Guard
+  - Gun
   layers:
   - Default
   - TransparentFX

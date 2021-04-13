@@ -3,6 +3,11 @@ using System.Collections;
 
 public class Gun : MonoBehaviour
 {
+    public int clipnumber;
+    public AudioSource GunSound;
+    public AudioClip riffle;
+    public AudioClip pistol;
+    public AudioClip heavy;
     public float damage = 10f;
     public float range = 100f;
     public float impactForce = 30f;
@@ -20,8 +25,11 @@ public class Gun : MonoBehaviour
 
     private float nextTimeToFire = 0f;
 
+    public WeaponManager gunscript;
     void Start()
     {
+        gunscript = GameObject.Find("WeaponHolder").GetComponent<WeaponManager>();
+        GunSound = GetComponent<AudioSource>();
         currentAmmo = maxAmmo;
         fpsCam =  GameObject.FindObjectOfType<Camera>();
     }
@@ -44,6 +52,15 @@ public class Gun : MonoBehaviour
         }
         if(Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
+            clipnumber=gunscript.clipnumer;
+            if(clipnumber==0)
+            GunSound.clip = riffle;
+            else if(clipnumber==1)
+            GunSound.clip = heavy;
+            else
+            GunSound.clip = pistol;
+
+            GunSound.Play();
             nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
         }
