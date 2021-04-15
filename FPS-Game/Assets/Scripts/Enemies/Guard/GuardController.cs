@@ -24,7 +24,7 @@ public class GuardController : MonoBehaviour {
     private Transform treasure;
     public EnemyUI guardStats;
     public int maxHealth;
-
+    public int deadguards=0;
     void Awake() {
         
         guard_Anim = GetComponent<GuardAnimator>();
@@ -56,7 +56,15 @@ public class GuardController : MonoBehaviour {
 
      void Death(){
         guard_Anim.Dead(true);
+        StartCoroutine(LateCall());
      }
+
+    IEnumerator LateCall()
+    {
+         yield return new WaitForSeconds(7);
+         gameObject.SetActive(false);
+         deadguards+=1;
+    }
     
 
     void Protect() {

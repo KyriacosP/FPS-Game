@@ -17,6 +17,10 @@ public class EnemyManager : MonoBehaviour {
     public Transform player;
     private float maxx;
     private float maxz;
+    public int deadenemies;
+    public int deadguards;
+    public EnemyController enemycontr;
+   public GuardController guardcontr;
 
     void Start()
     {
@@ -30,6 +34,24 @@ public class EnemyManager : MonoBehaviour {
         player = GameObject.FindWithTag("Player").transform;
         generateEnemies();
         generateGuards();
+        Check();
+        
+    }
+
+    void Update(){
+        Check();
+    }
+
+    void Check(){
+            if(enemycontr.deadenemies==5){
+                generateEnemies();
+                enemycontr.deadenemies=0;
+            }
+            
+            if(guardcontr.deadguards==4){
+                generateGuards();
+                guardcontr.deadguards=0;
+            }
     }
 
     void generateEnemies()
@@ -56,7 +78,7 @@ public class EnemyManager : MonoBehaviour {
 
     }
     void generateGuards(){
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 4; i++){
             //Generate random x,z,y position on the terrain
             float randX = UnityEngine.Random.Range(xTerrainPos, xTerrainPos + terrainWidth);
             float randZ = UnityEngine.Random.Range(zTerrainPos, zTerrainPos + terrainLength);

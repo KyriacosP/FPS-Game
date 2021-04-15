@@ -41,6 +41,7 @@ public class EnemyController : MonoBehaviour {
 
     public EnemyUI enemyStats;
     public int maxHealth;
+    public int deadenemies=0;
 
     void Awake() {
         enemy_Anim = GetComponent<EnemyAnimator>();
@@ -77,15 +78,20 @@ public class EnemyController : MonoBehaviour {
             Rest();
         }
         }
-
     }
 
-  
      void Death(){
         enemy_Anim.Walk(false);
         enemy_Anim.Dead(true);
-
+        StartCoroutine(LateCall());
      }
+
+    IEnumerator LateCall()
+    {
+         yield return new WaitForSeconds(7);
+         gameObject.SetActive(false);
+         deadenemies+=1;
+    }
 
     public float LastRest;
     void Rest(){
