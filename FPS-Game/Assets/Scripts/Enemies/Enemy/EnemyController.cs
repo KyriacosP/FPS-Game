@@ -22,22 +22,17 @@ public class EnemyController : MonoBehaviour {
     
     public int health;
     public float chase_Distance = 7f;
-    private float current_Chase_Distance;
     public float attack_Distance = 1.8f;
-    public float chase_After_Attack_Distance = 2f;
 
     public float patrol_Radius_Min = 20f, patrol_Radius_Max = 60f;
     public float patrol_For_This_Time = 15f;
     public float patrol_Timer;
 
-    public float wait_Before_Attack = 2f;
-    private float attack_Timer;
-
     private Transform player;
 
     public GameObject attack_Point;
     public float RestTime;
-    public bool iwashit=false;
+    public bool iwashit;
 
     public EnemyUI enemyStats;
     public int maxHealth;
@@ -53,8 +48,6 @@ public class EnemyController : MonoBehaviour {
         enemyStats.SetMaxHealth(maxHealth);
         enemy_State = EnemyState.PATROL;
         patrol_Timer = patrol_For_This_Time;
-        attack_Timer = wait_Before_Attack;
-        current_Chase_Distance = chase_Distance;
     }
 	
     // Update is called once per frame
@@ -116,6 +109,11 @@ public class EnemyController : MonoBehaviour {
         navAgent.speed = walk_Speed;
         enemy_Anim.Walk(true);
 
+        if(Vector3.Distance(transform.position, player.position) <= chase_Distance || iwashit){
+            StartCoroutine(hitcall());
+            enemy_State = EnemyState.CHASE;
+        }
+
         RestTime+=Time.deltaTime;
         if(RestTime>LastRest+20){
             enemy_State = EnemyState.REST;
@@ -127,12 +125,12 @@ public class EnemyController : MonoBehaviour {
             patrol_Timer = 0f;
         }
 
-        if(iwashit)
-            enemy_State = EnemyState.CHASE;
-        
-         if(Vector3.Distance(transform.position, player.position) <= chase_Distance){
-            enemy_State = EnemyState.CHASE;
-        }
+    }
+
+    IEnumerator hitcall()
+    {
+         yield return new WaitForSeconds(4);
+         iwashit=false;
     }
 
     void Chase(){
@@ -141,7 +139,7 @@ public class EnemyController : MonoBehaviour {
         navAgent.SetDestination(player.position);
         enemy_Anim.Walk(false);
         enemy_Anim.Run(true);
-
+        
         if(Vector3.Distance(transform.position, player.position) <= attack_Distance) {
             enemy_Anim.Run(false);
             enemy_State = EnemyState.ATTACK;

@@ -81,9 +81,19 @@ public class EnemyManager : MonoBehaviour {
     }
     void generateGuards(){
         for (int i = 0; i < 4; i++){
-            //Generate random x,z,y position on the terrain
-            float randX = UnityEngine.Random.Range(xTerrainPos, xTerrainPos + terrainWidth);
-            float randZ = UnityEngine.Random.Range(zTerrainPos, zTerrainPos + terrainLength);
+             //Generate random x,z,y position on the terrain
+            if((player.position.x + 50) > terrainWidth)
+                maxx=terrainWidth;
+            else
+                maxx=player.position.x + 50;
+            if((player.position.z + 50) > terrainLength)
+                maxz=terrainLength;
+            else
+                maxz=player.position.z + 50;
+            float randX = UnityEngine.Random.Range(player.position.x, maxx);
+            float randZ = UnityEngine.Random.Range(player.position.z, maxz);
+            //float randX = UnityEngine.Random.Range(xTerrainPos, xTerrainPos + terrainWidth);
+            //float randZ = UnityEngine.Random.Range(zTerrainPos, zTerrainPos + terrainLength);
             int xInt = (int)randX;
             int zInt = (int)randZ;
             float yVal = Terrain.activeTerrain.terrainData.GetHeight(xInt,zInt);

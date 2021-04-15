@@ -32,8 +32,9 @@ public class GuardController : MonoBehaviour {
         guard_Anim = GetComponent<GuardAnimator>();
         navAgent = GetComponent<NavMeshAgent>();
         player = GameObject.FindWithTag("Player").transform;
-        treasure = GameObject.FindWithTag("Treasure").transform;
-
+        //treasure = GameObject.FindWithTag("Treasure").transform;
+        GameObject treasurechild = transform.parent.gameObject.transform.GetChild(0).gameObject;
+        treasure=treasurechild.transform;
     }
 
     void Start () {        
@@ -71,23 +72,26 @@ public class GuardController : MonoBehaviour {
 
     void Protect() {
         navAgent.isStopped = false;
-        navAgent.SetDestination(this.treasure.position);
+        navAgent.SetDestination(treasure.position);
         guard_Anim.Run(false);
 
-        if(Vector3.Distance(this.treasure.position, player.position) <= treasureDistance || iwashit) {
-             guard_State = GuardState.CHASE;
+        if(Vector3.Distance(treasure.position, player.position) <= treasureDistance || iwashit) {
+            StartCoroutine(hitcall());
+            guard_State = GuardState.CHASE;
         }
 
-        if(Vector3.Distance(this.transform.position, this.treasure.position) > 4){
-            // if(Vector3.Distance(treasure.position, player.position) <= treasureDistance){
-            //     guard_Anim.Walk(false);
-            //     guard_State = GuardState.CHASE;
-            // } else 
+        if(Vector3.Distance(transform.position, treasure.position) > 4){
                 guard_Anim.Walk(true);
         }else{
             guard_Anim.Walk(false);
             navAgent.isStopped = true;
         }   
+    }
+
+    IEnumerator hitcall()
+    {
+         yield return new WaitForSeconds(4);
+         iwashit=false;
     }
 
     void Chase(){
@@ -96,12 +100,12 @@ public class GuardController : MonoBehaviour {
         navAgent.SetDestination(player.position);
         guard_Anim.Run(true);
 
-        if(Vector3.Distance(this.transform.position, player.position) <= attack_Distance) {
+        if(Vector3.Distance(transform.position, player.position) <= attack_Distance) {
             guard_Anim.Run(false);
             guard_State = GuardState.ATTACK;
         } 
-        else if(Vector3.Distance(this.transform.position, player.position)> attack_Distance && 
-        Vector3.Distance(this.treasure.position, player.position) > treasureDistance) {
+        else if(Vector3.Distance(transform.position, player.position)> attack_Distance && 
+        Vector3.Distance(treasure.position, player.position) > treasureDistance) {
             guard_State = GuardState.PROTECT;
         }
 
@@ -115,9 +119,9 @@ public class GuardController : MonoBehaviour {
         transform.rotation=Quaternion.Slerp(transform.rotation,Quaternion.LookRotation(direction),3*Time.deltaTime);
         guard_Anim.Attack(true);
 
-        if(Vector3.Distance(this.transform.position, player.position) > attack_Distance) {
+        if(Vector3.Distance(transform.position, player.position) > attack_Distance) {
             guard_Anim.Attack(false);
-            if(Vector3.Distance(this.treasure.position, player.position)<= treasureDistance){
+            if(Vector3.Distance(treasure.position, player.position)<= treasureDistance){
                 guard_State = GuardState.CHASE;
             }else{
                 guard_State = GuardState.PROTECT;

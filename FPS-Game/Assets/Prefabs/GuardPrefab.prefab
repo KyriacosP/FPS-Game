@@ -166,6 +166,7 @@ MonoBehaviour:
   guardStats: {fileID: 1456266422535182909}
   maxHealth: 100
   deadguards: 0
+  iwashit: 0
 --- !u!114 &1814371996
 MonoBehaviour:
   m_ObjectHideFlags: 0

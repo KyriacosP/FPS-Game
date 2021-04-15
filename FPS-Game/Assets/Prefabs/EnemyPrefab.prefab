@@ -461,12 +461,10 @@ MonoBehaviour:
   health: 50
   chase_Distance: 15
   attack_Distance: 3
-  chase_After_Attack_Distance: 2
   patrol_Radius_Min: 20
   patrol_Radius_Max: 60
   patrol_For_This_Time: 15
   patrol_Timer: 0
-  wait_Before_Attack: 1
   attack_Point: {fileID: 0}
   RestTime: 0
   iwashit: 0
