@@ -17,7 +17,7 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Cursor.lockState == CursorLockMode.Locked) {
+        if(Cursor.lockState == CursorLockMode.Locked && Time.time>1) {
             MoveCamera();
         }
     }

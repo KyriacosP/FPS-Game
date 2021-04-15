@@ -12,6 +12,7 @@ TagManager:
   - Treasure
   - Guard
   - Gun
+  - Cylinder
   layers:
   - Default
   - TransparentFX

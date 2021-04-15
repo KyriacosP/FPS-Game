@@ -39,25 +39,26 @@ public class EnemyController : MonoBehaviour {
     public float RestTime;
     public float iwashit;
 
+    public EnemyUI enemyStats;
+    public int maxHealth;
+
     void Awake() {
         enemy_Anim = GetComponent<EnemyAnimator>();
         navAgent = GetComponent<NavMeshAgent>();
-        player = GameObject.FindWithTag("Player").transform;
+        player = GameObject.FindWithTag("Cylinder").transform;
 
     }
-
     void Start () {
-
+        enemyStats.SetMaxHealth(maxHealth);
         enemy_State = EnemyState.PATROL;
         patrol_Timer = patrol_For_This_Time;
         attack_Timer = wait_Before_Attack;
         current_Chase_Distance = chase_Distance;
-
     }
 	
     // Update is called once per frame
     void Update () {
-                
+        enemyStats.SetHealth(health);
         if(health<=0)
             Death();
         else{
@@ -144,17 +145,19 @@ public class EnemyController : MonoBehaviour {
     }
 
     void Attack() {
-        navAgent.velocity = Vector3.zero;
+        //navAgent.velocity = Vector3.zero;
         navAgent.isStopped = true;
-
-        transform.LookAt(player);
+        Vector3 direction = player.position - transform.position;
+        direction.y=0;
+        transform.rotation=Quaternion.Slerp(transform.rotation,Quaternion.LookRotation(direction),3*Time.deltaTime);
         enemy_Anim.Attack(true);
+       
         
         if(Vector3.Distance(transform.position, player.position) > attack_Distance) {
             if(Vector3.Distance(transform.position, player.position) < chase_Distance){
                 enemy_Anim.Attack(false);
                 enemy_State = EnemyState.CHASE;
-            }else{
+            }else if(Vector3.Distance(transform.position, player.position) > chase_Distance){
             enemy_Anim.Attack(false);
             enemy_State = EnemyState.PATROL;
             }   

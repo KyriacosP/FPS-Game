@@ -28,11 +28,11 @@ public class EnemyManager : MonoBehaviour {
         xTerrainPos = terrain.transform.position.x;
         zTerrainPos = terrain.transform.position.z;
         player = GameObject.FindWithTag("Player").transform;
-        generateObjectOnTerrain();
-        generateTreasures();
+        generateEnemies();
+        generateGuards();
     }
 
-    void generateObjectOnTerrain()
+    void generateEnemies()
     {
         for (int i = 0; i < 6; i++){
             //Generate random x,z,y position on the terrain
@@ -55,7 +55,7 @@ public class EnemyManager : MonoBehaviour {
         }
 
     }
-    void generateTreasures(){
+    void generateGuards(){
         for (int i = 0; i < 10; i++){
             //Generate random x,z,y position on the terrain
             float randX = UnityEngine.Random.Range(xTerrainPos, xTerrainPos + terrainWidth);
@@ -64,6 +64,7 @@ public class EnemyManager : MonoBehaviour {
             yVal = yVal + yOffset;
             //Generate the Prefab on the generated position
             GameObject objInstance = (GameObject)Instantiate(guardprefab, new Vector3(randX, yVal, randZ), Quaternion.identity);
-        }
+        }   
     }
+    
 }
