@@ -26,6 +26,7 @@ public class Gun : MonoBehaviour
     private float nextTimeToFire = 0f;
 
     public WeaponManager gunscript;
+     
     void Start()
     {
         gunscript = GameObject.Find("WeaponHolder").GetComponent<WeaponManager>();
@@ -50,7 +51,7 @@ public class Gun : MonoBehaviour
             StartCoroutine(Reload());
             return;
         }
-        if(Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
+        if(Input.GetButton("Fire1") && Time.time >= nextTimeToFire && gunscript.clipnumer!=-1)
         {
             clipnumber=gunscript.clipnumer;
             if(clipnumber==0)

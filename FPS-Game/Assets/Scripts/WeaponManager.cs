@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
 {
-    public enum WeaponType {RIFLE=1, HEAVY=2, HANDGUN=3, GRENADE=4};
+    public enum WeaponType {NULL=0, RIFLE=1, HEAVY=2, HANDGUN=3, GRENADE=4};
 
     public GameObject rifle;
     public GameObject heavy;
@@ -18,7 +18,8 @@ public class WeaponManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        selectedWeapon = WeaponType.RIFLE;
+        clipnumer=-1;
+        selectedWeapon = WeaponType.NULL;
         SelectWeapon();
     }
 
