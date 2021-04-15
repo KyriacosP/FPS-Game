@@ -37,7 +37,7 @@ public class EnemyController : MonoBehaviour {
 
     public GameObject attack_Point;
     public float RestTime;
-    public float iwashit;
+    public bool iwashit=false;
 
     public EnemyUI enemyStats;
     public int maxHealth;
@@ -46,7 +46,7 @@ public class EnemyController : MonoBehaviour {
     void Awake() {
         enemy_Anim = GetComponent<EnemyAnimator>();
         navAgent = GetComponent<NavMeshAgent>();
-        player = GameObject.FindWithTag("Cylinder").transform;
+        player = GameObject.FindWithTag("Player").transform;
 
     }
     void Start () {
@@ -99,12 +99,12 @@ public class EnemyController : MonoBehaviour {
         navAgent.isStopped=true;
         enemy_Anim.Rest(true);
         enemy_Anim.Walk(false);
-        if(RestTime>LastRest+30 || iwashit==1) {
+        if(RestTime>LastRest+30) {
             enemy_Anim.Rest(false);
             LastRest=RestTime;
             enemy_State = EnemyState.PATROL;
         }
-        if(Vector3.Distance(transform.position, player.position) <= chase_Distance){
+        if(Vector3.Distance(transform.position, player.position) <= chase_Distance || iwashit ){
             enemy_Anim.Rest(false);
             LastRest=RestTime;
             enemy_State = EnemyState.CHASE;
@@ -127,8 +127,10 @@ public class EnemyController : MonoBehaviour {
             patrol_Timer = 0f;
         }
 
+        if(iwashit)
+            enemy_State = EnemyState.CHASE;
+        
          if(Vector3.Distance(transform.position, player.position) <= chase_Distance){
-            enemy_Anim.Walk(false);
             enemy_State = EnemyState.CHASE;
         }
     }
@@ -137,8 +139,9 @@ public class EnemyController : MonoBehaviour {
         navAgent.isStopped = false;
         navAgent.speed = 2;
         navAgent.SetDestination(player.position);
+        enemy_Anim.Walk(false);
         enemy_Anim.Run(true);
-        
+
         if(Vector3.Distance(transform.position, player.position) <= attack_Distance) {
             enemy_Anim.Run(false);
             enemy_State = EnemyState.ATTACK;
@@ -157,7 +160,6 @@ public class EnemyController : MonoBehaviour {
         direction.y=0;
         transform.rotation=Quaternion.Slerp(transform.rotation,Quaternion.LookRotation(direction),3*Time.deltaTime);
         enemy_Anim.Attack(true);
-       
         
         if(Vector3.Distance(transform.position, player.position) > attack_Distance) {
             if(Vector3.Distance(transform.position, player.position) < chase_Distance){

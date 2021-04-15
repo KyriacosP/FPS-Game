@@ -95,11 +95,12 @@ public class Gun : MonoBehaviour
             if(hit.transform.tag=="Enemy"){
                 enemyScript = hit.transform.GetComponent<EnemyController>();
                 enemyScript.health--;
-                enemyScript.iwashit=1;
+                enemyScript.iwashit=true;
             } 
             else if(hit.transform.tag=="Guard"){
                 guardScript = hit.transform.GetComponent<GuardController>();
                 guardScript.health--;
+                guardScript.iwashit=true;
             }
 
             if(hit.rigidbody != null) 

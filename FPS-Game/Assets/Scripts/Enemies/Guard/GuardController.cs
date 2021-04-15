@@ -25,6 +25,8 @@ public class GuardController : MonoBehaviour {
     public EnemyUI guardStats;
     public int maxHealth;
     public int deadguards=0;
+    public bool iwashit;
+
     void Awake() {
         
         guard_Anim = GetComponent<GuardAnimator>();
@@ -72,7 +74,7 @@ public class GuardController : MonoBehaviour {
         navAgent.SetDestination(this.treasure.position);
         guard_Anim.Run(false);
 
-        if(Vector3.Distance(this.treasure.position, player.position) <= treasureDistance) {
+        if(Vector3.Distance(this.treasure.position, player.position) <= treasureDistance || iwashit) {
              guard_State = GuardState.CHASE;
         }
 
@@ -93,7 +95,7 @@ public class GuardController : MonoBehaviour {
         navAgent.speed = 2;
         navAgent.SetDestination(player.position);
         guard_Anim.Run(true);
-        
+
         if(Vector3.Distance(this.transform.position, player.position) <= attack_Distance) {
             guard_Anim.Run(false);
             guard_State = GuardState.ATTACK;

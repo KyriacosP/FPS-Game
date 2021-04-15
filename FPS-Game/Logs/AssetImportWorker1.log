@@ -3388,3 +3388,518 @@ System memory in use after: 256.1 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2071.
 Total: 2.285123 ms (FindLiveObjects: 0.276339 ms CreateObjectMapping: 0.048203 ms MarkObjects: 1.367894 ms  DeleteObjects: 0.591249 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 256.8 MB.
+System memory in use after: 256.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 2.170556 ms (FindLiveObjects: 0.227314 ms CreateObjectMapping: 0.043812 ms MarkObjects: 1.312152 ms  DeleteObjects: 0.586017 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 257.2 MB.
+System memory in use after: 256.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 2.679842 ms (FindLiveObjects: 0.367096 ms CreateObjectMapping: 0.063054 ms MarkObjects: 1.480691 ms  DeleteObjects: 0.767129 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 257.4 MB.
+System memory in use after: 257.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 2.359770 ms (FindLiveObjects: 0.269252 ms CreateObjectMapping: 0.053923 ms MarkObjects: 1.435595 ms  DeleteObjects: 0.599576 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 484.074112 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(c998896a367fff34babaf312345b3ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(c998896a367fff34babaf312345b3ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0916c5e77d1c7d992695031d9bf37a') in 0.013710 seconds
+  Import took 0.016367 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 257.8 MB.
+System memory in use after: 257.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2083.
+Total: 2.389146 ms (FindLiveObjects: 0.229229 ms CreateObjectMapping: 0.059233 ms MarkObjects: 1.478090 ms  DeleteObjects: 0.620760 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 258.0 MB.
+System memory in use after: 257.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2086.
+Total: 2.628130 ms (FindLiveObjects: 0.319353 ms CreateObjectMapping: 0.065080 ms MarkObjects: 1.604004 ms  DeleteObjects: 0.637565 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 258.4 MB.
+System memory in use after: 258.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2089.
+Total: 2.237594 ms (FindLiveObjects: 0.218292 ms CreateObjectMapping: 0.109170 ms MarkObjects: 1.321881 ms  DeleteObjects: 0.586412 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 258.7 MB.
+System memory in use after: 258.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2092.
+Total: 3.156653 ms (FindLiveObjects: 0.255619 ms CreateObjectMapping: 0.072963 ms MarkObjects: 2.038421 ms  DeleteObjects: 0.787234 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 259.0 MB.
+System memory in use after: 258.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2095.
+Total: 2.808047 ms (FindLiveObjects: 0.311127 ms CreateObjectMapping: 0.088233 ms MarkObjects: 1.833414 ms  DeleteObjects: 0.573611 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 259.3 MB.
+System memory in use after: 258.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2098.
+Total: 2.727769 ms (FindLiveObjects: 0.309747 ms CreateObjectMapping: 0.110437 ms MarkObjects: 1.722885 ms  DeleteObjects: 0.582947 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 259.6 MB.
+System memory in use after: 259.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2101.
+Total: 2.326849 ms (FindLiveObjects: 0.301601 ms CreateObjectMapping: 0.057507 ms MarkObjects: 1.395654 ms  DeleteObjects: 0.570382 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 259.9 MB.
+System memory in use after: 259.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 2.411345 ms (FindLiveObjects: 0.291850 ms CreateObjectMapping: 0.051108 ms MarkObjects: 1.444035 ms  DeleteObjects: 0.621716 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 260.3 MB.
+System memory in use after: 259.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2107.
+Total: 2.401169 ms (FindLiveObjects: 0.231552 ms CreateObjectMapping: 0.041813 ms MarkObjects: 1.450814 ms  DeleteObjects: 0.675050 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 903.178611 seconds.
+  path: Assets/Animations/GuardAnimation/Guard Controller.controller
+  artifactKey: Guid(8cdd2fb8864b74ff69f3796c8d1e854d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GuardAnimation/Guard Controller.controller using Guid(8cdd2fb8864b74ff69f3796c8d1e854d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618ada886e83caf42663104b0f452493') in 0.050051 seconds
+  Import took 0.052757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.654326 seconds.
+  path: Assets/Prefabs/EnemyPrefab.prefab
+  artifactKey: Guid(b96baf134ebd742de86d332b2bc6d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyPrefab.prefab using Guid(b96baf134ebd742de86d332b2bc6d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897eea0c7e1791adc41ea1130e9e0901') in 0.133799 seconds
+  Import took 0.137155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefabs/GuardPrefab.prefab
+  artifactKey: Guid(99d6daaa41d7140af95cd2a104cd6dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GuardPrefab.prefab using Guid(99d6daaa41d7140af95cd2a104cd6dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c05f93519c35bb3f91ebe79d2370f9') in 0.123969 seconds
+  Import took 0.128929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.500528 seconds.
+  path: Assets/Animations/EnemyAnimation/Enemy Controller.controller
+  artifactKey: Guid(b02e2b6cfcf2d45afab816b4531323ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/Enemy Controller.controller using Guid(b02e2b6cfcf2d45afab816b4531323ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e46a580dd5a0fb3f53680c9b10402a') in 0.010896 seconds
+  Import took 0.013944 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 260.9 MB.
+System memory in use after: 260.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 2.290154 ms (FindLiveObjects: 0.194211 ms CreateObjectMapping: 0.041842 ms MarkObjects: 1.411650 ms  DeleteObjects: 0.624461 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.2 MB.
+System memory in use after: 260.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 2.321229 ms (FindLiveObjects: 0.312206 ms CreateObjectMapping: 0.047615 ms MarkObjects: 1.383091 ms  DeleteObjects: 0.576923 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000565 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.5 MB.
+System memory in use after: 261.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 3.364800 ms (FindLiveObjects: 0.327853 ms CreateObjectMapping: 0.080921 ms MarkObjects: 2.096917 ms  DeleteObjects: 0.856854 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 261.9 MB.
+System memory in use after: 261.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2120.
+Total: 2.281772 ms (FindLiveObjects: 0.196836 ms CreateObjectMapping: 0.045069 ms MarkObjects: 1.403040 ms  DeleteObjects: 0.634783 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 262.2 MB.
+System memory in use after: 261.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2123.
+Total: 2.859121 ms (FindLiveObjects: 0.233304 ms CreateObjectMapping: 0.052317 ms MarkObjects: 1.773312 ms  DeleteObjects: 0.797644 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 262.5 MB.
+System memory in use after: 262.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2126.
+Total: 2.905457 ms (FindLiveObjects: 0.333004 ms CreateObjectMapping: 0.117617 ms MarkObjects: 1.738741 ms  DeleteObjects: 0.713965 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 262.8 MB.
+System memory in use after: 262.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2129.
+Total: 2.449466 ms (FindLiveObjects: 0.264803 ms CreateObjectMapping: 0.104348 ms MarkObjects: 1.445634 ms  DeleteObjects: 0.631354 ms)
+
