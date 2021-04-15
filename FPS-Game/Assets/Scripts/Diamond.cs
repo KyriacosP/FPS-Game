@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 [RequireComponent(typeof(Rigidbody), typeof(Collider))]
-public class HeartRotate : MonoBehaviour
+public class Diamond : MonoBehaviour
 {
-    public GameObject Heart;
+    public GameObject diamond;
     public float VerticalBobFrequency = 1f;
 
     public float BobbingAmount = 1f;
@@ -17,7 +16,6 @@ public class HeartRotate : MonoBehaviour
     Collider m_Collider;
     Vector3 m_StartPosition;
     bool m_HasPlayedFeedback;
-    public PlayerHealth healthscript;
 
     protected virtual void Start()
     {
@@ -46,8 +44,7 @@ public class HeartRotate : MonoBehaviour
      {
   
         if (other.gameObject.tag == "Player"){
-                healthscript.health+=5;    
-                Destroy(gameObject);
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Night");
         }
      }
 }
