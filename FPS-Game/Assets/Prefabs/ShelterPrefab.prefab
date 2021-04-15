@@ -120,7 +120,6 @@ GameObject:
   - component: {fileID: 8995903329076885011}
   - component: {fileID: 3311880899617482630}
   - component: {fileID: 5980603700462791171}
-  - component: {fileID: 1784322169799040710}
   m_Layer: 10
   m_Name: Cube1 (3)
   m_TagString: Untagged
@@ -204,19 +203,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1784322169799040710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2850296806995222037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88d0fa7b848c55f4ea07bde9b4e7f28c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 50
 --- !u!1 &3576951267901283205
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +215,6 @@ GameObject:
   - component: {fileID: 5096613827280083876}
   - component: {fileID: 8117751727195041001}
   - component: {fileID: 4221594701527265358}
-  - component: {fileID: 3048266605104979607}
   m_Layer: 10
   m_Name: Cube1 (1)
   m_TagString: Untagged
@@ -313,19 +298,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3048266605104979607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3576951267901283205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88d0fa7b848c55f4ea07bde9b4e7f28c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 50
 --- !u!1 &4295212128464685521
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +310,6 @@ GameObject:
   - component: {fileID: 3412482713380265481}
   - component: {fileID: 2621999855189946642}
   - component: {fileID: 146122714171811530}
-  - component: {fileID: 3042918459923814915}
   m_Layer: 10
   m_Name: Cube1 (2)
   m_TagString: Untagged
@@ -422,19 +393,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3042918459923814915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4295212128464685521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88d0fa7b848c55f4ea07bde9b4e7f28c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 50
 --- !u!1 &7443118172235522425
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +405,6 @@ GameObject:
   - component: {fileID: 9076734770894925120}
   - component: {fileID: 7739189220222448534}
   - component: {fileID: 4974225643361386707}
-  - component: {fileID: 7672440264998264223}
   m_Layer: 10
   m_Name: Cube1
   m_TagString: Untagged
@@ -531,19 +488,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7672440264998264223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7443118172235522425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88d0fa7b848c55f4ea07bde9b4e7f28c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 50
 --- !u!1 &8004450178620457556
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +500,6 @@ GameObject:
   - component: {fileID: 7348432003283980208}
   - component: {fileID: 1430673464473603284}
   - component: {fileID: 2643838150763901155}
-  - component: {fileID: 2222583368440720559}
   m_Layer: 10
   m_Name: Cube1 (4)
   m_TagString: Untagged
@@ -640,16 +583,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2222583368440720559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8004450178620457556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88d0fa7b848c55f4ea07bde9b4e7f28c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 50

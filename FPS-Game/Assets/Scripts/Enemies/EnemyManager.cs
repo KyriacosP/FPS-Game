@@ -70,7 +70,9 @@ public class EnemyManager : MonoBehaviour {
             float randZ = UnityEngine.Random.Range(player.position.z, maxz);
             //float randX = UnityEngine.Random.Range(xTerrainPos, xTerrainPos + terrainWidth);
             //float randZ = UnityEngine.Random.Range(zTerrainPos, zTerrainPos + terrainLength);
-            float yVal = Terrain.activeTerrain.SampleHeight(new Vector3(randX, 0, randZ));
+            int xInt = (int)randX;
+            int zInt = (int)randZ;
+            float yVal = Terrain.activeTerrain.terrainData.GetHeight(xInt,zInt);
             yVal = yVal + yOffset;
             //Generate the Prefab on the generated position
             GameObject objInstance = (GameObject)Instantiate(enemyprefab, new Vector3(randX, yVal, randZ), Quaternion.identity);
@@ -82,7 +84,9 @@ public class EnemyManager : MonoBehaviour {
             //Generate random x,z,y position on the terrain
             float randX = UnityEngine.Random.Range(xTerrainPos, xTerrainPos + terrainWidth);
             float randZ = UnityEngine.Random.Range(zTerrainPos, zTerrainPos + terrainLength);
-            float yVal = Terrain.activeTerrain.SampleHeight(new Vector3(randX, 0, randZ));
+            int xInt = (int)randX;
+            int zInt = (int)randZ;
+            float yVal = Terrain.activeTerrain.terrainData.GetHeight(xInt,zInt);
             yVal = yVal + yOffset;
             //Generate the Prefab on the generated position
             GameObject objInstance = (GameObject)Instantiate(guardprefab, new Vector3(randX, yVal, randZ), Quaternion.identity);
