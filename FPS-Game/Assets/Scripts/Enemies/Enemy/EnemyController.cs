@@ -99,6 +99,7 @@ public class EnemyController : MonoBehaviour {
         }
         if(Vector3.Distance(transform.position, player.position) <= chase_Distance || iwashit ){
             enemy_Anim.Rest(false);
+            enemy_Anim.Run(true);
             LastRest=RestTime;
             enemy_State = EnemyState.CHASE;
         }

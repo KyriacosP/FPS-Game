@@ -397,3 +397,191 @@ System memory in use after: 246.1 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1806.
 Total: 2.110323 ms (FindLiveObjects: 0.206199 ms CreateObjectMapping: 0.047092 ms MarkObjects: 1.291784 ms  DeleteObjects: 0.563390 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 246.9 MB.
+System memory in use after: 246.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1809.
+Total: 2.664031 ms (FindLiveObjects: 0.266813 ms CreateObjectMapping: 0.101484 ms MarkObjects: 1.552003 ms  DeleteObjects: 0.742175 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 802.787631 seconds.
+  path: Assets/Sounds/Guns
+  artifactKey: Guid(69dfc70c6f4e741f9a4a2c914fde75b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Guns using Guid(69dfc70c6f4e741f9a4a2c914fde75b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9ff30531c2403fb72b5f8e40679dbd') in 0.004951 seconds
+  Import took 0.007550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131889 seconds.
+  path: Assets/Sounds/Guns/Assault Rifle Fire.mp3
+  artifactKey: Guid(27f8dac0cf81a4b9e93ef3587d5d982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Guns/Assault Rifle Fire.mp3 using Guid(27f8dac0cf81a4b9e93ef3587d5d982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5471930f1f3c15ae09972680a793f7c3') in 1.675992 seconds
+  Import took 1.678559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Sounds/Guns/Sawed Off Fire 02.wav
+  artifactKey: Guid(b3574413e17664ee485767888091031f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Guns/Sawed Off Fire 02.wav using Guid(b3574413e17664ee485767888091031f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e751373c5c367fb82df2da184c2077d') in 1.717445 seconds
+  Import took 1.719760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Sounds/Guns/Sawed Off Fire 03.mp3
+  artifactKey: Guid(cb9c439fcfdec4e1aa9e848444ec31a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Guns/Sawed Off Fire 03.mp3 using Guid(cb9c439fcfdec4e1aa9e848444ec31a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573ab97822be4b0f8a742060375bee7c') in 0.015401 seconds
+  Import took 0.017441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Sounds/Guns/Shotgun Pump 02.wav
+  artifactKey: Guid(b8d842c6937124296bb58615ebeb13b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Guns/Shotgun Pump 02.wav using Guid(b8d842c6937124296bb58615ebeb13b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987b30fa6dae149a41f53f6c625dabee') in 0.015916 seconds
+  Import took 0.019507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/Sounds/Guns/Revolver Fire.wav
+  artifactKey: Guid(838c23fe1d4da4d188ab8e74bc5d750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Guns/Revolver Fire.wav using Guid(838c23fe1d4da4d188ab8e74bc5d750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9090df5fb6cb5d11826f02dda66ee6f') in 0.024628 seconds
+  Import took 0.027381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Sounds/Guns/Shotgun Pump 01.wav
+  artifactKey: Guid(1b7c037ce8b234060a6d703a262ca0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Guns/Shotgun Pump 01.wav using Guid(1b7c037ce8b234060a6d703a262ca0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcdc3caf1fd2f2c93c4ac6f4aa17697') in 0.013762 seconds
+  Import took 0.016501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Sounds/Guns/Shotgun Fire 01.wav
+  artifactKey: Guid(fdde35d796ff34d929254bdf91d108fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Guns/Shotgun Fire 01.wav using Guid(fdde35d796ff34d929254bdf91d108fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22180e516bac87df874a837f53ee500') in 0.024058 seconds
+  Import took 0.027283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Sounds/Guns/Rifle Fire.mp3
+  artifactKey: Guid(5605fa6a666d64b69863e2e42d384fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Guns/Rifle Fire.mp3 using Guid(5605fa6a666d64b69863e2e42d384fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f880454ae3cd18d35e116d76d91e8628') in 0.012687 seconds
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Sounds/Guns/Sawed Off Fire 01.mp3
+  artifactKey: Guid(e174469014aeb4a7f8ff88efb7739f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Guns/Sawed Off Fire 01.mp3 using Guid(e174469014aeb4a7f8ff88efb7739f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9066a8789cfc19e84567e1e740c8bbfc') in 0.013252 seconds
+  Import took 0.015828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.945586 seconds.
+  path: Assets/Animations/EnemyAnimation/FinalController.controller
+  artifactKey: Guid(cda005111b39e4821a9ee4f65db3035a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EnemyAnimation/FinalController.controller using Guid(cda005111b39e4821a9ee4f65db3035a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dfc8e89d121b471bb03b4cc5680448') in 0.027159 seconds
+  Import took 0.030144 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 255.9 MB.
+System memory in use after: 255.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1815.
+Total: 2.122892 ms (FindLiveObjects: 0.155161 ms CreateObjectMapping: 0.040369 ms MarkObjects: 1.331414 ms  DeleteObjects: 0.594445 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 256.2 MB.
+System memory in use after: 255.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1818.
+Total: 2.031392 ms (FindLiveObjects: 0.162829 ms CreateObjectMapping: 0.037675 ms MarkObjects: 1.253428 ms  DeleteObjects: 0.576189 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000555 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 256.6 MB.
+System memory in use after: 256.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 2.412501 ms (FindLiveObjects: 0.219103 ms CreateObjectMapping: 0.042114 ms MarkObjects: 1.465367 ms  DeleteObjects: 0.683996 ms)
+
