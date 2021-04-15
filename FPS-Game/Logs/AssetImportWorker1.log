@@ -1,0 +1,108 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/revekkakalli/Desktop/FPS-Game/FPS-Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58721
+Successfully changed project path to: /Users/revekkakalli/Desktop/FPS-Game/FPS-Game
+/Users/revekkakalli/Desktop/FPS-Game/FPS-Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path /Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/revekkakalli/Desktop/FPS-Game/FPS-Game/Assets
+GfxDevice: creating device client; threaded=0
+2021-04-15 18:28:08.030 Unity[238:12560484] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-04-15 18:28:08.030 Unity[238:12560484] Metal devices available: 1
+2021-04-15 18:28:08.030 Unity[238:12560484] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-04-15 18:28:08.030 Unity[238:12560484] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = '/Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56238
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000571 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 46.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.782 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.345 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launching external process: /Applications/Visual Studio Code/2020.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 143.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1753.
+Total: 4.683833 ms (FindLiveObjects: 0.437400 ms CreateObjectMapping: 0.177741 ms MarkObjects: 3.220272 ms  DeleteObjects: 0.845978 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Player/PlayerHealth.cs
+  artifactKey: Guid(21ec4cb103cac4d52a4ece25f186fc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerHealth.cs using Guid(21ec4cb103cac4d52a4ece25f186fc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc452fe4d165633f43e9d55b900af395') in 0.972228 seconds
+  Import took 0.976607 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001938 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1250 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.8 MB.
+System memory in use after: 145.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1756.
+Total: 2.121709 ms (FindLiveObjects: 0.159203 ms CreateObjectMapping: 0.043741 ms MarkObjects: 1.461403 ms  DeleteObjects: 0.456041 ms)
+

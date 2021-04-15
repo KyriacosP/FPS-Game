@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class EnemyUI : MonoBehaviour
 {
-
 	public Slider slider;
 	public Gradient gradient;
 	public Image fill;
