@@ -58,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
             cam.transform.localPosition=new Vector3 (0f,0f,0f);
         }
         if (Input.GetKeyUp(KeyCode.C) && isGrounded) {
-            cam.transform.localPosition=new Vector3 (0f,4.27f,0f);
+            cam.transform.localPosition=new Vector3 (0f,2.4f,0f);
         }
         //gravity
         velocity.y += g * Time.deltaTime;
