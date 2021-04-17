@@ -13,6 +13,7 @@ TagManager:
   - Guard
   - Gun
   - Cylinder
+  - WeaponManager
   layers:
   - Default
   - TransparentFX
