@@ -153,7 +153,7 @@ public class EnemyController : MonoBehaviour {
     }
 
     void Attack() {
-        //navAgent.velocity = Vector3.zero;
+        navAgent.velocity = Vector3.zero;
         navAgent.isStopped = true;
         Vector3 direction = player.position - transform.position;
         direction.y=0;
