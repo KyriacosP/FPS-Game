@@ -223,6 +223,7 @@ public class EnemyShooterController : MonoBehaviour
     {
         navAgent.velocity = Vector3.zero;
         navAgent.isStopped = true;
+       
         //Vector3 direction = player.position - transform.position;
         //direction.y = 0;
         //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), 3 * Time.deltaTime);
