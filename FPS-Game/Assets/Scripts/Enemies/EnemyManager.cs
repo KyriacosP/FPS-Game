@@ -58,14 +58,14 @@ public class EnemyManager : MonoBehaviour {
     {
         for (int i = 0; i < 6; i++){
             //Generate random x,z,y position on the terrain
-            if((player.position.x + 200) > terrainWidth)
+            if((player.position.x + 100) > terrainWidth)
                 maxx=terrainWidth;
             else
-                maxx=player.position.x + 200;
-            if((player.position.z + 200) > terrainLength)
+                maxx=player.position.x + 100;
+            if((player.position.z + 100) > terrainLength)
                 maxz=terrainLength;
             else
-                maxz=player.position.z + 200;
+                maxz=player.position.z + 100;
             float randX = UnityEngine.Random.Range(player.position.x, maxx);
             float randZ = UnityEngine.Random.Range(player.position.z, maxz);
             //float randX = UnityEngine.Random.Range(xTerrainPos, xTerrainPos + terrainWidth);

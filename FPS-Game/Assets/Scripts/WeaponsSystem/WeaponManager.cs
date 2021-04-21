@@ -15,10 +15,12 @@ public class WeaponManager : MonoBehaviour
     public WeaponType selectedWeapon;
     public GameObject active;
     public WeaponData activeWeaponData;
+    public GameObject cross;
 
     // Start is called before the first frame update
     void Start()
     {
+        cross.SetActive(false);
         selectedWeapon = WeaponType.NULL;
         active = null;
         SelectWeapon();
@@ -79,6 +81,9 @@ public class WeaponManager : MonoBehaviour
 
     private void SelectWeapon()
     {
+        if(selectedWeapon!=WeaponType.NULL){
+            cross.SetActive(true);
+        }
         if(selectedWeapon==WeaponType.RIFLE)
         {
             EnableWeapon(rifle);
