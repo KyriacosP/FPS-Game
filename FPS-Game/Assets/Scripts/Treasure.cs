@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody), typeof(Collider))]
-public class Diamond : MonoBehaviour
+public class Treasure : MonoBehaviour
 {
-    public GameObject diamond;
+    public GameObject treasure;
     public float VerticalBobFrequency = 1f;
-
+    public Diamond diamond;
     public float BobbingAmount = 1f;
     public float RotatingSpeed = 360f;
+    public GemsUI gemStats;
 
     public Rigidbody PickupRigidbody { get; private set; }
-    public int treasures;
+
     Collider m_Collider;
     Vector3 m_StartPosition;
     bool m_HasPlayedFeedback;
@@ -42,9 +44,11 @@ public class Diamond : MonoBehaviour
 
      void OnTriggerEnter(Collider other)
      {
-  
-        if (other.gameObject.tag == "Player" && treasures==7){
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Night");
+         
+        if (other.gameObject.tag == "Player"){
+                diamond.treasures++;
+                gemStats.SetGems();
+                Destroy(gameObject);
         }
      }
 }
