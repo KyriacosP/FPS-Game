@@ -2,66 +2,92 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
-{
-    //Movement
-    public CharacterController controller;
-    public float playerSpeed = 12f;
-    public float acceleration = 30f;
-    //Gravity
-    private Vector3 velocity;
-    public float g = -9.81f;
-    public Transform groundCheck;
-    public float groundDistance = 0.4f;
-    public LayerMask groundMask;
-    private bool isGrounded;
-    //Jump
-    public float jumpHeight = 3f;
-    public Transform cam;
+public class PlayerMovement : MonoBehaviour {
+
+    private CharacterController controller;
+
+    private Vector3 move_Direction;
+
+    public float speed = 5f;
+    private float gravity = 20f;
+
+    public float jump_Force = 10f;
+    private float vertical_Velocity;
 
     void Awake() {
-        cam = GameObject.FindWithTag("FpsCamera").transform;
+        controller = GetComponent<CharacterController>();
+    }
+	
+	void Update () {
+        MoveThePlayer();
+	}
+
+    void MoveThePlayer() {
+
+        move_Direction = new Vector3(Input.GetAxis("Horizontal"), 0f,
+                                     Input.GetAxis("Vertical"));
+
+        move_Direction = transform.TransformDirection(move_Direction);
+        move_Direction *= speed * Time.deltaTime;
+
+        ApplyGravity();
+
+        controller.Move(move_Direction);
+
+
+    } // move player
+
+    void ApplyGravity() {
+
+        vertical_Velocity -= gravity * Time.deltaTime;
+
+        // jump
+        PlayerJump();
+
+        move_Direction.y = vertical_Velocity * Time.deltaTime;
+
+    } // apply gravity
+
+    void PlayerJump() {
+
+        if(controller.isGrounded && Input.GetKeyDown(KeyCode.Space)) {
+            vertical_Velocity = jump_Force;
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        //check if we are on the ground
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+} // class
 
-        if(isGrounded && velocity.y<0)
-        {
-            velocity.y = -2f;
-        }
 
-        float xMovement = Input.GetAxis("Horizontal");
-        float zMovement = Input.GetAxis("Vertical");
 
-        //move player
-        Vector3 move = transform.right * xMovement + transform.forward * zMovement;
-        controller.Move(move * playerSpeed * Time.deltaTime);
 
-        //Jump
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * g);
-        }
-        //Acceleration
-        if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded) {
-            playerSpeed = acceleration;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift) && isGrounded) {
-            playerSpeed = 12f;
-        }
-        //crouch
-        if (Input.GetKeyDown(KeyCode.C) && isGrounded) {
-            cam.transform.localPosition=new Vector3 (0f,0f,0f);
-        }
-        if (Input.GetKeyUp(KeyCode.C) && isGrounded) {
-            cam.transform.localPosition=new Vector3 (0f,2.4f,0f);
-        }
-        //gravity
-        velocity.y += g * Time.deltaTime;
-        controller.Move(velocity * Time.deltaTime);
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
