@@ -15,6 +15,7 @@ TagManager:
   - Cylinder
   - WeaponManager
   - Crosshair
+  - Grenade
   layers:
   - Default
   - TransparentFX
