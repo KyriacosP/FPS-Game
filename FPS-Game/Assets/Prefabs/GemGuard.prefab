@@ -125,7 +125,7 @@ BoxCollider:
   m_GameObject: {fileID: 1459777017845309785}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.7, y: 1.76, z: 0.57}
   m_Center: {x: 0, y: 0.91, z: 0}
@@ -525,7 +525,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479989077103188943}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: GEM
   m_TagString: Treasure
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8272926718994019895}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.03, y: 8.21, z: 8.33}
+  m_LocalPosition: {x: -2.03, y: 9.88, z: 8.33}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 7510039230770755217}
@@ -587,7 +587,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ee464eca873d54fd48e17c97888ea06c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.21
+      value: 9.83
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ee464eca873d54fd48e17c97888ea06c,
         type: 3}
@@ -1012,6 +1012,14 @@ PrefabInstance:
       propertyPath: gemStats
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 199611853, guid: 30b0236e213214843900bc851819bdbc, type: 3}
+      propertyPath: BobbingAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199611853, guid: 30b0236e213214843900bc851819bdbc, type: 3}
+      propertyPath: VerticalBobFrequency
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5029201937283845971, guid: 30b0236e213214843900bc851819bdbc,
         type: 3}
       propertyPath: m_RootOrder
@@ -1040,7 +1048,7 @@ PrefabInstance:
     - target: {fileID: 5029201937283845971, guid: 30b0236e213214843900bc851819bdbc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7800001
+      value: 1.366
       objectReference: {fileID: 0}
     - target: {fileID: 5029201937283845971, guid: 30b0236e213214843900bc851819bdbc,
         type: 3}
