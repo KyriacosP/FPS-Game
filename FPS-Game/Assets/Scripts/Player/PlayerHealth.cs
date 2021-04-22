@@ -29,10 +29,10 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
         if(randombool){
-            if(health==4)
+            if(health<=4)
             spawnShelter();
         }
-        if(health==0)
+        if(health<=0)
             RestartGame();
         playerStats.SetHealth(health);
     }
@@ -55,5 +55,10 @@ public class PlayerHealth : MonoBehaviour
         randombool=false;
     }
 
-   
+    public void Damage(int damage)
+    {
+        health -= damage;
+    }
+
+
 }

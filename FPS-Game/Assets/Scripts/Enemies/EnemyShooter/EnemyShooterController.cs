@@ -163,7 +163,7 @@ public class EnemyShooterController : MonoBehaviour
         }
 
         patrol_Timer += Time.deltaTime;
-        if (patrol_Timer > patrol_For_This_Time)
+        if (patrol_Timer > patrol_For_This_Time || navAgent.remainingDistance<2f)
         {
             SetNewRandomDestination();
             patrol_Timer = 0f;
@@ -180,7 +180,7 @@ public class EnemyShooterController : MonoBehaviour
     void Chase()
     {
         navAgent.isStopped = false;
-        navAgent.speed = 2;
+        navAgent.speed = run_Speed;
         navAgent.SetDestination(player.position);
         enemy_Anim.Walk(false);
         enemy_Anim.Run(true);
@@ -201,7 +201,7 @@ public class EnemyShooterController : MonoBehaviour
     private void ChaseAttack()
     {
         navAgent.isStopped = false;
-        navAgent.speed = 2;
+        navAgent.speed = run_Speed;
         navAgent.SetDestination(player.position);
         enemy_Anim.Run(false);
         enemy_Anim.RunAttack(true);
@@ -223,10 +223,6 @@ public class EnemyShooterController : MonoBehaviour
     {
         navAgent.velocity = Vector3.zero;
         navAgent.isStopped = true;
-       
-        //Vector3 direction = player.position - transform.position;
-        //direction.y = 0;
-        //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), 3 * Time.deltaTime);
         enemy_Anim.Attack(true);
 
         float distance = Vector3.Distance(transform.position, player.position);

@@ -96,13 +96,13 @@ public class GunScript : MonoBehaviour
 			if (hit.transform.CompareTag("Enemy"))
 			{
 				enemyScript = hit.transform.GetComponent<EnemyController>();
-				enemyScript.health--;
+				enemyScript.health -= activeWeaponData.damage;
 				enemyScript.iwashit = true;
 			}
 			else if (hit.transform.CompareTag("Guard"))
 			{
 				guardScript = hit.transform.GetComponent<GuardController>();
-				guardScript.health--;
+				guardScript.health-= activeWeaponData.damage;
 				guardScript.iwashit = true;
 			}
 

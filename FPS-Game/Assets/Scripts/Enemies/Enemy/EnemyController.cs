@@ -121,7 +121,7 @@ public class EnemyController : MonoBehaviour {
         }
         
         patrol_Timer += Time.deltaTime;
-        if(patrol_Timer > patrol_For_This_Time) {
+        if(patrol_Timer > patrol_For_This_Time || navAgent.remainingDistance < 2f) {
             SetNewRandomDestination();
             patrol_Timer = 0f;
         }
