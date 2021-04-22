@@ -21,8 +21,11 @@ public class PlayerSprintAndCrouch : MonoBehaviour {
     private float crouch_Step_Distance = 0.5f;
     private float sprint_Value = 100f;
     public float sprint_Treshold = 10f;
+    public StaminaUI stamStats;
+
 
 	void Awake () {
+        stamStats.SetMaxStam(sprint_Value);
         playerMovement = GetComponent<PlayerMovement>();
         look_Root = transform.GetChild(0);
         player_Footsteps = GetComponentInChildren<PlayerFootsteps>();
@@ -67,9 +70,11 @@ public class PlayerSprintAndCrouch : MonoBehaviour {
                 player_Footsteps.volume_Min = walk_Volume_Min;
                 player_Footsteps.volume_Max = walk_Volume_Max;
             }
+            stamStats.SetStamina(sprint_Value);
         } else {
             if(sprint_Value != 100f) {
                 sprint_Value += (sprint_Treshold / 2f) * Time.deltaTime;
+                stamStats.SetStamina(sprint_Value);
                 if(sprint_Value > 100f) {
                     sprint_Value = 100f;
                 }
