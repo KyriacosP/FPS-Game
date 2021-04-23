@@ -16,19 +16,22 @@ public class EnemyShooterController : MonoBehaviour
 {
 
     public EnemyShooterAnimator enemy_Anim;
+    public AudioSource audioSource;
     private NavMeshAgent navAgent;
 
     public EnemyShooterState enemy_State;
 
-    public float walk_Speed = 0.5f;
-    public float run_Speed = 4f;
+    public float walk_Speed = 3;
+    public float run_Speed = 10f;
 
     public int health = 100;
     public float chase_Distance = 30f;
     public float chase_attack_Distance = 20f;
     public float attack_Distance = 10f;
     public float running_accuracy = 0.5f;
+    public float runningFiringRate = 2f;
     public float accuracy = 0.8f;
+    public float firingRate = 5f;
 
     public float patrol_Radius_Min = 20f, patrol_Radius_Max = 60f;
     public float patrol_For_This_Time = 15f;
@@ -37,7 +40,6 @@ public class EnemyShooterController : MonoBehaviour
 
     private Transform player;
 
-    public GameObject attack_Point;
     public float RestTime;
     public bool iwashit;
 
@@ -45,10 +47,21 @@ public class EnemyShooterController : MonoBehaviour
     public int maxHealth;
     public int deadenemies = 0;
 
+    private float nextTimeToFire = 0f;
+    public int damage = 10;
+    public float firingImpactForce = 5;
+    public GameObject impactEffect;
+    public int firingRange = 30;
+    public ParticleSystem muzzleFlash;
+    public AudioClip sound;
+
     void Awake()
     {
+        Debug.Log("HELLO");
         enemy_Anim = GetComponent<EnemyShooterAnimator>();
         navAgent = GetComponent<NavMeshAgent>();
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = sound;
         player = GameObject.FindWithTag("Player").transform;
 
     }
@@ -206,6 +219,9 @@ public class EnemyShooterController : MonoBehaviour
         enemy_Anim.Run(false);
         enemy_Anim.RunAttack(true);
 
+        Shoot(runningFiringRate, running_accuracy);
+        
+
         float distance = Vector3.Distance(transform.position, player.position);
         if (distance <= attack_Distance)
         {
@@ -219,12 +235,12 @@ public class EnemyShooterController : MonoBehaviour
         }
     }
 
-    void Attack()
+	void Attack()
     {
         navAgent.velocity = Vector3.zero;
         navAgent.isStopped = true;
         enemy_Anim.Attack(true);
-
+        Shoot(firingRate, accuracy);
         float distance = Vector3.Distance(transform.position, player.position);
         if (distance > attack_Distance)
         {
@@ -237,6 +253,46 @@ public class EnemyShooterController : MonoBehaviour
             {
                 enemy_Anim.Attack(false);
                 enemy_State = EnemyShooterState.CHASE;
+            }
+        }
+    }
+
+    private void Shoot(float firingRate, float accuracy)
+    {
+        if (Time.time >= nextTimeToFire)
+        {
+            nextTimeToFire = Time.time + 1f / firingRate;
+          
+            muzzleFlash.Play();
+            audioSource.Play();
+
+            if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, firingRange))
+            {
+                PlayerHealth target = hit.transform.GetComponent<PlayerHealth>();
+
+                if (target != null)
+                {
+                    Debug.Log("FIRE");
+                    if (Random.Range(0f, 1f) < accuracy)
+					{
+                        Debug.Log("HIT");
+                        target.Damage(damage);
+                        if (hit.rigidbody != null)
+                        {
+                            hit.rigidbody.AddForce(-hit.normal * firingImpactForce);
+                        }
+
+                        GameObject impactEffectObject = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+                        Destroy(impactEffectObject, 0.3f);
+                    }
+					else
+					{
+                        Debug.Log("MISS");
+                    }
+                    
+                }
+
+               
             }
         }
     }
