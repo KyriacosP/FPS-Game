@@ -11,9 +11,10 @@ public class GunScript : MonoBehaviour
     public WeaponManager weaponManager;
     public GameObject activeWeapon;
     public WeaponData activeWeaponData;
+    public Animator animator;
 
     public int maxAmmo = 10;
-    public int currentAmmo = -1;
+    private int currentAmmo = -1;
     public float reloadTime = 1f;
     private bool isReloading = false;
     private float nextTimeToFire = 0f;
@@ -21,10 +22,10 @@ public class GunScript : MonoBehaviour
     void Start()
     {
         weaponManager = GetComponent<WeaponManager>();
+        animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
         fpsCam = gameObject.GetComponentInParent<Camera>();
         currentAmmo = maxAmmo;
-      
     }
 
     void OnEnable()
@@ -71,7 +72,10 @@ public class GunScript : MonoBehaviour
     IEnumerator Reload()
     {
         isReloading = true;
-        yield return new WaitForSeconds(reloadTime);
+        animator.SetBool("Reloading", true);
+        yield return new WaitForSeconds(reloadTime - 0.25f);
+        animator.SetBool("Reloading", false);
+        yield return new WaitForSeconds(0.25f);
         currentAmmo = maxAmmo;
         isReloading = false;
     }
