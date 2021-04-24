@@ -43,11 +43,12 @@ public class Grenade : MonoBehaviour
                 rb.AddExplosionForce(force, transform.position, radius);
             }
 
-            Target target = collider.GetComponent<Target>();
-            if (target != null)
+            ITarget target = collider.GetComponent<ITarget>();
+			Transform collTrans = collider.GetComponent<Transform>();
+			if (target != null && collTrans!=null)
             {
                 // linear falloff of effect
-                float proximity = (transform.position - target.transform.position).magnitude;
+                float proximity = (transform.position - collTrans.position).magnitude;
                 float effect = 1 - (proximity / radius);
 
                 target.Damage(damage * effect);

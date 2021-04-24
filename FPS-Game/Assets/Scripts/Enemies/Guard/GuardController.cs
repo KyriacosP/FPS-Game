@@ -9,7 +9,7 @@ public enum GuardState {
     ATTACK
 }
 
-public class GuardController : MonoBehaviour {
+public class GuardController : MonoBehaviour, ITarget {
 
     private GuardAnimator guard_Anim;
     private NavMeshAgent navAgent;
@@ -127,7 +127,13 @@ public class GuardController : MonoBehaviour {
                 guard_State = GuardState.PROTECT;
             }  
         }
-    } 
+    }
+
+    public void Damage(float damage)
+    {
+        health -= (int)damage;
+        iwashit = true;
+    }
 
 
     public GuardState GuardState {

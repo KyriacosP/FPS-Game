@@ -10,7 +10,8 @@ public enum EnemyState {
     REST
 }
 
-public class EnemyController : MonoBehaviour {
+public class EnemyController : MonoBehaviour, ITarget
+{
 
   public EnemyAnimator enemy_Anim;
     private NavMeshAgent navAgent;
@@ -181,7 +182,13 @@ public class EnemyController : MonoBehaviour {
         navAgent.SetDestination(navHit.position);
     }
 
-    public EnemyState Enemy_State {
+	public void Damage(float damage)
+	{
+		health -= (int) damage;
+        iwashit = true;
+    }
+
+	public EnemyState Enemy_State {
         get; set;
     }
 

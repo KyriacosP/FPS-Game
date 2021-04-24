@@ -82,8 +82,8 @@ public class GunScript : MonoBehaviour
 
     void Shoot()
     {
-        EnemyController enemyScript;
-        GuardController guardScript;
+        //EnemyController enemyScript;
+        //GuardController guardScript;
         activeWeaponData.muzzleFlash.Play();
         audioSource.Play();
 
@@ -91,13 +91,13 @@ public class GunScript : MonoBehaviour
 
 		if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out RaycastHit hit, activeWeaponData.range))
 		{
-			Target target = hit.transform.GetComponent<Target>();
+			ITarget target = hit.transform.GetComponent<ITarget>();
 			if (target != null)
 			{
 				target.Damage(activeWeaponData.damage);
 			}
 
-			if (hit.transform.CompareTag("Enemy"))
+			/*if (hit.transform.CompareTag("Enemy"))
 			{
 				enemyScript = hit.transform.GetComponent<EnemyController>();
 				enemyScript.health -= activeWeaponData.damage;
@@ -108,7 +108,7 @@ public class GunScript : MonoBehaviour
 				guardScript = hit.transform.GetComponent<GuardController>();
 				guardScript.health-= activeWeaponData.damage;
 				guardScript.iwashit = true;
-			}
+			}*/
 
 			if (hit.rigidbody != null)
 			{

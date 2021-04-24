@@ -6,7 +6,7 @@ using UnityEngine;
 public class GrenadeThrower : MonoBehaviour
 {
 
-    public float throwForce = 10f;
+    public float throwForce = 20f;
     public GameObject grenadePrefab;
 
     // Update is called once per frame

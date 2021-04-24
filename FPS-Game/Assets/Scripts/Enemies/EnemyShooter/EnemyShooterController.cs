@@ -12,7 +12,7 @@ public enum EnemyShooterState
     REST
 }
 
-public class EnemyShooterController : MonoBehaviour
+public class EnemyShooterController : MonoBehaviour, ITarget
 {
 
     public EnemyShooterAnimator enemy_Anim;
@@ -306,6 +306,12 @@ public class EnemyShooterController : MonoBehaviour
         NavMeshHit navHit;
         NavMesh.SamplePosition(randDir, out navHit, rand_Radius, -1);
         navAgent.SetDestination(navHit.position);
+    }
+
+    public void Damage(float damage)
+    {
+        health -= (int)damage;
+        iwashit = true;
     }
 
     public EnemyState Enemy_State

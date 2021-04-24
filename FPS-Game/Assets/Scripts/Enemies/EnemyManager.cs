@@ -20,7 +20,7 @@ public class EnemyManager : MonoBehaviour {
     public int deadenemies;
     public int deadguards;
     public EnemyController enemycontr;
-   public GuardController guardcontr;
+    public GuardController guardcontr;
 
     void Start()
     {
