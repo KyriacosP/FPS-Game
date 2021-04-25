@@ -7,7 +7,7 @@ public class Diamond : MonoBehaviour
 {
     public GameObject diamond;
     public float VerticalBobFrequency = 1f;
-
+    public int level;
     public float BobbingAmount = 1f;
     public float RotatingSpeed = 360f;
 
@@ -43,8 +43,11 @@ public class Diamond : MonoBehaviour
      void OnTriggerEnter(Collider other)
      {
   
-        if (other.gameObject.tag == "Player" && treasures==7){
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Night");
+        if (other.gameObject.tag == "Player" && treasures==7 && level==1){
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Level2");
+        }
+        if (other.gameObject.tag == "Player" && treasures==7 && level==2){
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Level3");
         }
      }
 }
