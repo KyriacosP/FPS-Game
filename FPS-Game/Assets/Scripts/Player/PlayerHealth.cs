@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     public float yOffset = 0.5f;
     public Transform player;
     public bool randombool=true;
-
+    public int level;
     void Start()
     {
         playerStats.SetMaxHealth(maxHealth);
@@ -28,32 +29,32 @@ public class PlayerHealth : MonoBehaviour
     
     void Update()
     {
-        if(randombool){
-            if(health<=4)
-            spawnShelter();
-        }
+        // if(randombool){
+        //     if(health<=4)
+        //     spawnShelter();
+        // }
         if(health<=0)
             RestartGame();
         playerStats.SetHealth(health);
     }
 
     void RestartGame() {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Level" + level.ToString());
     }
     
-    void spawnShelter(){
-        float randX = UnityEngine.Random.Range(player.position.x, player.position.x+30);
-        float randZ = UnityEngine.Random.Range(player.position.z, player.position.x+30);
-        // float yVal = Terrain.activeTerrain.SampleHeight(new Vector3(randX, 0, randZ));
-        int xInt = (int)randX;
-        int zInt = (int)randZ;
-        float yVal = Terrain.activeTerrain.terrainData.GetHeight(xInt,zInt);
+    // void spawnShelter(){
+    //     float randX = UnityEngine.Random.Range(player.position.x, player.position.x+30);
+    //     float randZ = UnityEngine.Random.Range(player.position.z, player.position.x+30);
+    //     // float yVal = Terrain.activeTerrain.SampleHeight(new Vector3(randX, 0, randZ));
+    //     int xInt = (int)randX;
+    //     int zInt = (int)randZ;
+    //     float yVal = Terrain.activeTerrain.terrainData.GetHeight(xInt,zInt);
        
-        yVal = yVal + yOffset;
-        //Generate the Prefab on the generated position
-        GameObject objInstance = (GameObject)Instantiate(shelter, new Vector3(randX, yVal, randZ), Quaternion.identity);
-        randombool=false;
-    }
+    //     yVal = yVal + yOffset;
+    //     //Generate the Prefab on the generated position
+    //     GameObject objInstance = (GameObject)Instantiate(shelter, new Vector3(randX, yVal, randZ), Quaternion.identity);
+    //     randombool=false;
+    // }
 
     public void Damage(int damage)
     {

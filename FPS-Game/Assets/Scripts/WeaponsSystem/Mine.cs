@@ -12,8 +12,10 @@ public class Mine : MonoBehaviour
     private float countdown;
     public PlayerHealth healthscript;
     
+
     void Start()
     {
+        
     }
 
     void OnTriggerEnter(Collider other){
@@ -22,10 +24,10 @@ public class Mine : MonoBehaviour
             Explode();
         }
         }
-
     
+
         void Explode()
-    {
+    {   
         GameObject explosion = Instantiate(explosionEffect, transform.position, transform.rotation);
 
         Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
@@ -50,8 +52,8 @@ public class Mine : MonoBehaviour
             }
         }
 
-        Destroy(explosion, 2f);
-        Destroy(gameObject);
+       // Destroy(explosion, 2f);
+        
         
     }
 }

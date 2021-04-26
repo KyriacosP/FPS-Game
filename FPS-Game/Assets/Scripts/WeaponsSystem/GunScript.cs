@@ -79,10 +79,10 @@ public class GunScript : MonoBehaviour
         currentAmmo = maxAmmo;
         isReloading = false;
     }
-
+public EnemyController enemyScript;
     void Shoot()
     {
-        //EnemyController enemyScript;
+        
         //GuardController guardScript;
         activeWeaponData.muzzleFlash.Play();
         audioSource.Play();
@@ -95,6 +95,14 @@ public class GunScript : MonoBehaviour
 			if (target != null)
 			{
 				target.Damage(activeWeaponData.damage);
+			}
+
+            if (hit.transform.CompareTag("Headshot"))
+			{
+				enemyScript = hit.transform.GetComponent<EnemyController>();
+				enemyScript.health =0;
+                Debug.Log("HEADSHOT");
+				//enemyScript.iwashit = true;
 			}
 
 			/*if (hit.transform.CompareTag("Enemy"))
