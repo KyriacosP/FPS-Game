@@ -30,15 +30,15 @@ public class GemsUI : MonoBehaviour
 			Panel.gameObject.SetActive (true);
 			if(player.position.z<gem.position.z){
 				if(player.position.x<gem.position.x)
-					gemsdistance.text = ("Gem 200m. ahead to your right");
+					gemsdistance.text = ("Gem 200m. straight on your right");
 				if(player.position.x>gem.position.x)
-					gemsdistance.text = ("Gem 200m. ahead to your left");
+					gemsdistance.text = ("Gem 200m. straight on your left");
 			}
 			if(player.position.z>gem.position.z){	
 				if(player.position.x<gem.position.x)
-					gemsdistance.text = ("Gem 200m. behind to your right");
+					gemsdistance.text = ("Gem 200m. behind on your right");
 				if(player.position.x>gem.position.x)
-					gemsdistance.text = ("Gem 200m. behind to your left");
+					gemsdistance.text = ("Gem 200m. behind on your left");
 			}		
 		}
 	else{
