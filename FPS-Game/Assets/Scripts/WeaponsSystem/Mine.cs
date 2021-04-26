@@ -15,7 +15,7 @@ public class Mine : MonoBehaviour
 
     void Start()
     {
-        
+        healthscript=GameObject.FindWithTag("Cylinder").GetComponent<PlayerHealth>();
     }
 
     void OnTriggerEnter(Collider other){
