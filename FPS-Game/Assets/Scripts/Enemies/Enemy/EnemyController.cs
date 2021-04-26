@@ -83,7 +83,7 @@ public class EnemyController : MonoBehaviour, ITarget
     IEnumerator LateCall()
     {
          yield return new WaitForSeconds(7);
-         gameObject.SetActive(false);
+         Destroy(transform.parent.gameObject);
          deadenemies+=1;
     }
 

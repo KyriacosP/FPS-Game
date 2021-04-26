@@ -39,7 +39,7 @@ public class EnemyManager : MonoBehaviour {
     }
 
     void Check(){
-            if(enemycontr.deadenemies==5){
+            if(enemycontr.deadenemies==3){
                 generateEnemies();
                 enemycontr.deadenemies=0;
             }
