@@ -57,7 +57,6 @@ public class EnemyShooterController : MonoBehaviour, ITarget
 
     void Awake()
     {
-        Debug.Log("HELLO");
         enemy_Anim = GetComponent<EnemyShooterAnimator>();
         navAgent = GetComponent<NavMeshAgent>();
         audioSource = GetComponent<AudioSource>();
@@ -272,10 +271,8 @@ public class EnemyShooterController : MonoBehaviour, ITarget
 
                 if (target != null)
                 {
-                    Debug.Log("FIRE");
                     if (Random.Range(0f, 1f) < accuracy)
 					{
-                        Debug.Log("HIT");
                         target.Damage(damage);
                         if (hit.rigidbody != null)
                         {
@@ -284,15 +281,8 @@ public class EnemyShooterController : MonoBehaviour, ITarget
 
                         GameObject impactEffectObject = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
                         Destroy(impactEffectObject, 0.3f);
-                    }
-					else
-					{
-                        Debug.Log("MISS");
-                    }
-                    
+                    } 
                 }
-
-               
             }
         }
     }

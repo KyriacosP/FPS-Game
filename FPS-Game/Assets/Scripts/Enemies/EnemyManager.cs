@@ -64,7 +64,7 @@ public class EnemyManager : MonoBehaviour {
             //float randZ = UnityEngine.Random.Range(zTerrainPos, zTerrainPos + terrainLength);
             int xInt = (int)randX;
             int zInt = (int)randZ;
-            float yVal = Terrain.activeTerrain.terrainData.GetHeight(xInt,zInt);
+            float yVal = terrain.terrainData.GetHeight(xInt,zInt);
             yVal = yVal + yOffset;
             //Generate the Prefab on the generated position
             GameObject objInstance = (GameObject)Instantiate(enemyprefab, new Vector3(randX, yVal, randZ), Quaternion.identity);
