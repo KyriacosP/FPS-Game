@@ -160,8 +160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b08d65c8e2d6458a968249b9e014859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  attack_Distance: 4
+  health: 200
+  attack_Distance: 10
   treasureDistance: 15
   guardStats: {fileID: 1456266422535182909}
   maxHealth: 100
@@ -985,15 +985,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee464eca873d54fd48e17c97888ea06c, type: 3}
---- !u!4 &2236595604715387875 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ee464eca873d54fd48e17c97888ea06c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1766328765027179528}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1459777017845309785 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ee464eca873d54fd48e17c97888ea06c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1766328765027179528}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2236595604715387875 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ee464eca873d54fd48e17c97888ea06c,
     type: 3}
   m_PrefabInstance: {fileID: 1766328765027179528}
   m_PrefabAsset: {fileID: 0}

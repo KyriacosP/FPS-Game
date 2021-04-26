@@ -65,7 +65,7 @@ public class GuardController : MonoBehaviour, ITarget {
     IEnumerator LateCall()
     {
          yield return new WaitForSeconds(7);
-         Destroy(transform.parent.gameObject);
+         gameObject.SetActive(false);
          deadguards+=1;
     }
     

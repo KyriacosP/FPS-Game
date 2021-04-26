@@ -699,14 +699,14 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   enemy_State: 0
   walk_Speed: 3
-  run_Speed: 10
+  run_Speed: 8
   health: 100
   chase_Distance: 30
   chase_attack_Distance: 20
   attack_Distance: 10
-  running_accuracy: 0.5
+  running_accuracy: 0.3
   runningFiringRate: 2
-  accuracy: 0.8
+  accuracy: 0.5
   firingRate: 5
   patrol_Radius_Min: 20
   patrol_Radius_Max: 60
@@ -718,7 +718,7 @@ MonoBehaviour:
   enemyStats: {fileID: 8248652928913314763}
   maxHealth: 100
   deadenemies: 0
-  damage: 10
+  damage: 5
   firingImpactForce: 5
   impactEffect: {fileID: 100002, guid: 00fedc70b62a31e448e8ccc298257b56, type: 3}
   firingRange: 30

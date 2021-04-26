@@ -62,9 +62,17 @@ public class Diamond : MonoBehaviour
         }
         if (other.gameObject.tag == "Player" && treasures==7 && level==2){
                 Image.gameObject.SetActive(true);
-                Time.timeScale = 0f;
+                StartCoroutine(LoadMainMenu());
         }
 
      }
+
+    IEnumerator LoadMainMenu()
+    {
+        yield return new WaitForSeconds(3);
+        Cursor.lockState = CursorLockMode.None;
+        SceneManager.LoadScene("MainMenu");
+
+    }
 }
 

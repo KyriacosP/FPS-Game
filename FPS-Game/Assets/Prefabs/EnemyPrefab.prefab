@@ -458,7 +458,7 @@ MonoBehaviour:
   enemy_Anim: {fileID: 1110883210}
   walk_Speed: 1
   run_Speed: 4
-  health: 50
+  health: 100
   chase_Distance: 25
   attack_Distance: 4
   patrol_Radius_Min: 20

@@ -114,7 +114,7 @@ public class EnemyShooterController : MonoBehaviour, ITarget
 
     IEnumerator LateCall()
     {
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(3);
         Destroy(transform.parent.gameObject);
         deadenemies += 1;
     }
@@ -281,7 +281,7 @@ public class EnemyShooterController : MonoBehaviour, ITarget
 
                         GameObject impactEffectObject = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
                         Destroy(impactEffectObject, 0.3f);
-                    } 
+                    }
                 }
             }
         }

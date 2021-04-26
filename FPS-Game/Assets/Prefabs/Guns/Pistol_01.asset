@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Pistol_01
   m_EditorClassIdentifier: 
   damage: 10
-  range: 100
-  impactForce: 30
-  fireRate: 15
+  range: 50
+  impactForce: 10
+  fireRate: 30
   muzzleFlashHolder: {fileID: 19800000, guid: 8eaaa4f553116f44b8459bc24201c514, type: 3}
   impactEffect: {fileID: 100002, guid: 99c73c92ac40473459640b165473206f, type: 3}
   sound: {fileID: 8300000, guid: 838c23fe1d4da4d188ab8e74bc5d750f, type: 3}

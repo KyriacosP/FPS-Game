@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Heavy_08
   m_EditorClassIdentifier: 
   damage: 60
-  range: 100
-  impactForce: 30
-  fireRate: 15
+  range: 200
+  impactForce: 60
+  fireRate: 5
   muzzleFlashHolder: {fileID: 19800000, guid: 8eaaa4f553116f44b8459bc24201c514, type: 3}
   impactEffect: {fileID: 100002, guid: 99c73c92ac40473459640b165473206f, type: 3}
   sound: {fileID: 8300000, guid: e174469014aeb4a7f8ff88efb7739f7a, type: 3}
