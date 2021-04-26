@@ -17,6 +17,7 @@ TagManager:
   - Crosshair
   - Grenade
   - Headshot
+  - WeaponLight
   layers:
   - Default
   - TransparentFX
