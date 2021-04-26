@@ -42,13 +42,12 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator reloadgame()
     {
-         yield return new WaitForSeconds(4);
+         yield return new WaitForSeconds(2);
          SceneManager.LoadScene("Level" + level.ToString());
          
     }
     void RestartGame() {
         ImageLose.gameObject.SetActive(true);
-        Time.timeScale = 0f;
         StartCoroutine(reloadgame());
         
     }

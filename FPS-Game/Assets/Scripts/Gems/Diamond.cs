@@ -45,15 +45,22 @@ public class Diamond : MonoBehaviour
     }
 
     public GameObject Image;
+    IEnumerator loadnextlevel()
+    {
+         yield return new WaitForSeconds(2);
+         SceneManager.LoadScene("Level2");
+         
+    }
 
      void OnTriggerEnter(Collider other)
      {
   
-        if (other.gameObject.tag == "Player" && treasures==0 && level==1){
+        if (other.gameObject.tag == "Player" && treasures==7 && level==1){
                 Image.gameObject.SetActive(true);
-                SceneManager.LoadScene("Level2");
+                StartCoroutine(loadnextlevel());
+                
         }
-        if (other.gameObject.tag == "Player" && treasures==0 && level==2){
+        if (other.gameObject.tag == "Player" && treasures==7 && level==2){
                 Image.gameObject.SetActive(true);
                 Time.timeScale = 0f;
         }
