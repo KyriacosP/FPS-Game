@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -14,11 +15,12 @@ public class PlayerHealth : MonoBehaviour
     public Transform player;
     public bool randombool=true;
     public int level;
+    public GameObject ImageLose;
     void Start()
     {
         playerStats.SetMaxHealth(maxHealth);
         player = GameObject.FindWithTag("Player").transform;
-
+        ImageLose.gameObject.SetActive(false);
     }
 
     void OnTriggerEnter(Collider other)
@@ -38,8 +40,17 @@ public class PlayerHealth : MonoBehaviour
         playerStats.SetHealth(health);
     }
 
+    IEnumerator reloadgame()
+    {
+         yield return new WaitForSeconds(4);
+         SceneManager.LoadScene("Level" + level.ToString());
+         
+    }
     void RestartGame() {
-        SceneManager.LoadScene("Level" + level.ToString());
+        ImageLose.gameObject.SetActive(true);
+        Time.timeScale = 0f;
+        StartCoroutine(reloadgame());
+        
     }
     
     // void spawnShelter(){

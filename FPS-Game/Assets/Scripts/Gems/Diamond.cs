@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody), typeof(Collider))]
 public class Diamond : MonoBehaviour
@@ -29,6 +30,8 @@ public class Diamond : MonoBehaviour
 
         // Remember start position for animation
         m_StartPosition = transform.position;
+
+        Image.gameObject.SetActive(false);
     }
 
     void Update()
@@ -41,15 +44,20 @@ public class Diamond : MonoBehaviour
         transform.Rotate(new Vector3(0.0f, 0.0f, 90.0f), RotatingSpeed * Time.deltaTime, Space.Self);
     }
 
+    public GameObject Image;
+
      void OnTriggerEnter(Collider other)
      {
   
-        if (other.gameObject.tag == "Player" && treasures==7 && level==1){
+        if (other.gameObject.tag == "Player" && treasures==0 && level==1){
+                Image.gameObject.SetActive(true);
                 SceneManager.LoadScene("Level2");
         }
-        if (other.gameObject.tag == "Player" && treasures==7 && level==2){
-                SceneManager.LoadScene("Level3");
+        if (other.gameObject.tag == "Player" && treasures==0 && level==2){
+                Image.gameObject.SetActive(true);
+                Time.timeScale = 0f;
         }
+
      }
 }
 
