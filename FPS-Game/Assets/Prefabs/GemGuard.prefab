@@ -167,6 +167,11 @@ MonoBehaviour:
   maxHealth: 200
   deadguards: 0
   iwashit: 0
+  enemyprefab: {fileID: 5998697537180610685, guid: b96baf134ebd742de86d332b2bc6d568,
+    type: 3}
+  enemyshooterprefab: {fileID: 8248652928407182903, guid: e74b73d6597f4534ba32eab604dada53,
+    type: 3}
+  enemiesSpawned: 0
 --- !u!114 &1814371996
 MonoBehaviour:
   m_ObjectHideFlags: 0

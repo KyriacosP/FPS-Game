@@ -49,7 +49,7 @@ public class Gem : MonoBehaviour
 	}
     public void Checkdistance(){
         float distance = Vector3.Distance(gem.position, player.position);
-        if( distance<200f && distance >30f) {
+        if( distance<200f && distance >100f) {
                 gemStats.randombool=true;
                 if(player.position.z<gem.position.z){
                     if(player.position.x<gem.position.x)

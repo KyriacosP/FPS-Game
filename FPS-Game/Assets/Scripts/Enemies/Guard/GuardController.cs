@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,6 +28,9 @@ public class GuardController : MonoBehaviour, ITarget {
     public int deadguards=0;
     public bool iwashit;
 
+    public GameObject enemyprefab;
+    public int enemiesSpawned = 0;
+
     void Awake() {
         
         guard_Anim = GetComponent<GuardAnimator>();
@@ -45,19 +49,39 @@ public class GuardController : MonoBehaviour, ITarget {
 	// Update is called once per frame
 	void Update () {
         guardStats.SetHealth(health);
+        if(health<=100 && enemiesSpawned<4)
+		{
+            SpawnEnemies();
+		}
         if(health<=0)
             Death();
         else{
-        if (guard_State == GuardState.PROTECT)
-            Protect();
-        if (guard_State == GuardState.CHASE)
-            Chase();
-        if (guard_State == GuardState.ATTACK)
-            Attack();
+            if (guard_State == GuardState.PROTECT)
+                Protect();
+            if (guard_State == GuardState.CHASE)
+                Chase();
+            if (guard_State == GuardState.ATTACK)
+                Attack();
         }
     }
 
-     void Death(){
+	private void SpawnEnemies()
+	{
+        for (int i = 0; i < 6; i++)
+        {
+            enemiesSpawned++;
+            float randX = UnityEngine.Random.Range(transform.position.x, transform.position.x + 20);
+            float randZ = UnityEngine.Random.Range(transform.position.z, transform.position.z + 20);
+
+            int xInt = (int)randX;
+            int zInt = (int)randZ;
+            float yVal = Terrain.activeTerrain.terrainData.GetHeight(xInt, zInt);
+            yVal = yVal + 0.5f;
+            GameObject objInstance = (GameObject)Instantiate(enemyprefab, new Vector3(randX, yVal, randZ), Quaternion.identity);
+         }
+    }
+
+	void Death(){
         guard_Anim.Dead(true);
         StartCoroutine(LateCall());
      }
