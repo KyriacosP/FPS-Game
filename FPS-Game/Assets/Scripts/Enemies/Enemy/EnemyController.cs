@@ -113,16 +113,18 @@ public class EnemyController : MonoBehaviour, ITarget
 
         if(Vector3.Distance(transform.position, player.position) <= chase_Distance || iwashit){
             StartCoroutine(hitcall());
+            enemy_Anim.Walk(false);
             enemy_State = EnemyState.CHASE;
         }
 
         RestTime+=Time.deltaTime;
         if(RestTime>LastRest+20){
+            enemy_Anim.Walk(false);
             enemy_State = EnemyState.REST;
         }
         
         patrol_Timer += Time.deltaTime;
-        if(patrol_Timer > patrol_For_This_Time || navAgent.remainingDistance < 2f) {
+        if(patrol_Timer > patrol_For_This_Time) {
             SetNewRandomDestination();
             patrol_Timer = 0f;
         }
@@ -141,12 +143,13 @@ public class EnemyController : MonoBehaviour, ITarget
         navAgent.SetDestination(player.position);
         enemy_Anim.Walk(false);
         enemy_Anim.Run(true);
-        
-        if(Vector3.Distance(transform.position, player.position) <= attack_Distance) {
+
+        float distance = Vector3.Distance(transform.position, player.position);
+        if (distance <= attack_Distance) {
             enemy_Anim.Run(false);
             enemy_State = EnemyState.ATTACK;
         } 
-        else if(Vector3.Distance(transform.position, player.position) > chase_Distance){
+        else if(distance > chase_Distance){
             enemy_Anim.Run(false);
             enemy_State = EnemyState.PATROL;
         }
@@ -160,14 +163,16 @@ public class EnemyController : MonoBehaviour, ITarget
         direction.y=0;
         transform.rotation=Quaternion.Slerp(transform.rotation,Quaternion.LookRotation(direction),3*Time.deltaTime);
         enemy_Anim.Attack(true);
-        
-        if(Vector3.Distance(transform.position, player.position) > attack_Distance) {
-            if(Vector3.Distance(transform.position, player.position) < chase_Distance){
+
+        float distance = Vector3.Distance(transform.position, player.position);
+        if (distance > attack_Distance) {
+            if(distance < chase_Distance){
                 enemy_Anim.Attack(false);
                 enemy_State = EnemyState.CHASE;
-            }else if(Vector3.Distance(transform.position, player.position) > chase_Distance){
-            enemy_Anim.Attack(false);
-            enemy_State = EnemyState.PATROL;
+            }
+            else if(distance > chase_Distance){
+                enemy_Anim.Attack(false);
+                enemy_State = EnemyState.PATROL;
             }   
         } 
     } 

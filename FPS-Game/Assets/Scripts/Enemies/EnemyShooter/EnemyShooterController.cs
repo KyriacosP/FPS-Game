@@ -265,7 +265,7 @@ public class EnemyShooterController : MonoBehaviour, ITarget
             muzzleFlash.Play();
             audioSource.Play();
 
-            if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, firingRange))
+            if (Physics.Raycast(transform.position, (player.position - transform.position).normalized, out RaycastHit hit, firingRange))
             {
                 PlayerHealth target = hit.transform.GetComponent<PlayerHealth>();
 
