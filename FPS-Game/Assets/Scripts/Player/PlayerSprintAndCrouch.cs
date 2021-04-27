@@ -19,7 +19,7 @@ public class PlayerSprintAndCrouch : MonoBehaviour {
     private float walk_Step_Distance = 0.4f;
     private float sprint_Step_Distance = 0.25f;
     private float crouch_Step_Distance = 0.5f;
-    private float sprint_Value = 100f;
+    private float sprint_Value = 400f;
     public float sprint_Treshold = 10f;
     public StaminaUI stamStats;
 
@@ -72,11 +72,11 @@ public class PlayerSprintAndCrouch : MonoBehaviour {
             }
             stamStats.SetStamina(sprint_Value);
         } else {
-            if(sprint_Value != 100f) {
+            if(sprint_Value != 400f) {
                 sprint_Value += (sprint_Treshold / 2f) * Time.deltaTime;
                 stamStats.SetStamina(sprint_Value);
-                if(sprint_Value > 100f) {
-                    sprint_Value = 100f;
+                if(sprint_Value > 400f) {
+                    sprint_Value = 400f;
                 }
             }
         }

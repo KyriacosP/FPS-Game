@@ -8,11 +8,10 @@ public class GemsUI : MonoBehaviour
 	public int maxgems=7;
 	public Text gems;
 	public Text gemsdistance;
+	public GameObject Panel;
+
 	public void Start()
 	{
-		player = GameObject.FindWithTag("Player").transform;
-		gem = GameObject.FindWithTag("Treasure").transform;
-		Panel.gameObject.SetActive (false);
 		gems.text = maxgems.ToString();
 	}
 
@@ -21,30 +20,12 @@ public class GemsUI : MonoBehaviour
         maxgems--;
 		gems.text=maxgems.ToString();
 	}
+
+	public string message;
+	public bool randombool;
 	
-	private Transform player;
-	private Transform gem;
-	public GameObject Panel;
 	public void Update(){
-		if(Vector3.Distance(gem.position, player.position) <200f && Vector3.Distance(gem.position, player.position) >170f) {
-			Panel.gameObject.SetActive (true);
-			if(player.position.z<gem.position.z){
-				if(player.position.x<gem.position.x)
-					gemsdistance.text = ("Gem 200m. straight on your right");
-				if(player.position.x>gem.position.x)
-					gemsdistance.text = ("Gem 200m. straight on your left");
-			}
-			if(player.position.z>gem.position.z){	
-				if(player.position.x<gem.position.x)
-					gemsdistance.text = ("Gem 200m. behind on your right");
-				if(player.position.x>gem.position.x)
-					gemsdistance.text = ("Gem 200m. behind on your left");
-			}		
-		}
-		else{
-			Panel.gameObject.SetActive (false);
-			gemsdistance.text="";
-		}
+		Panel.gameObject.SetActive(randombool);
+	 	gemsdistance.text=message;
 	}
-	
 }

@@ -1088,7 +1088,8 @@ PrefabInstance:
     - target: {fileID: 199611853, guid: 30b0236e213214843900bc851819bdbc, type: 3}
       propertyPath: diamond
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1179348177, guid: 6055e973cfadd4aa484112c59af097e4,
+        type: 3}
     - target: {fileID: 199611853, guid: 30b0236e213214843900bc851819bdbc, type: 3}
       propertyPath: gemStats
       value: 
@@ -1129,12 +1130,12 @@ PrefabInstance:
     - target: {fileID: 5029201937283845971, guid: 30b0236e213214843900bc851819bdbc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.366
+      value: 1.3659999
       objectReference: {fileID: 0}
     - target: {fileID: 5029201937283845971, guid: 30b0236e213214843900bc851819bdbc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.6000001
+      value: -0.5999998
       objectReference: {fileID: 0}
     - target: {fileID: 5029201937283845971, guid: 30b0236e213214843900bc851819bdbc,
         type: 3}
