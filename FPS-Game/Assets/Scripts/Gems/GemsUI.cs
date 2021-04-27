@@ -41,10 +41,10 @@ public class GemsUI : MonoBehaviour
 					gemsdistance.text = ("Gem 200m. behind on your left");
 			}		
 		}
-	else{
-		Panel.gameObject.SetActive (false);
-		gemsdistance.text="";
-	}
+		else{
+			Panel.gameObject.SetActive (false);
+			gemsdistance.text="";
+		}
 	}
 	
 }
